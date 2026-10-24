@@ -1,0 +1,7 @@
+Vídeos curtos (opcionais)
+
+Nenhuma missão usa vídeo nesta versão. Para incluir um, coloque o arquivo aqui
+(formato .webm ou .mp4, sem som ou com legenda) e preencha o campo "video" da
+pergunta em data/perguntas.json com o caminho, por exemplo:
+  "video": "assets/video/F-GE-02.webm"
+Só referencie arquivos que existam, para não gerar erro 404 no console.

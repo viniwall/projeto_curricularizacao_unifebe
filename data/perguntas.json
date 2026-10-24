@@ -1,0 +1,3717 @@
+{
+  "versao": 4,
+  "publico": "Pré-escola II (5 a 6 anos)",
+  "descricao": "3 níveis × 4 planetas × 5 perguntas. Cada planeta trabalha só o conteúdo do seu tema; dentro de cada planeta as perguntas vão da mais simples para a mais complexa.",
+  "planetas": {
+    "Sons e Sílabas": "Planeta dos Sons",
+    "Noções de Espaço": "Planeta dos Lugares",
+    "Matemática Simples": "Planeta dos Números",
+    "Cores": "Planeta das Cores"
+  },
+  "tipos_de_resposta": {
+    "escolha": "tocar em uma alternativa (2 a 4)",
+    "montar": "montar uma palavra tocando nas pecinhas (sílabas ou letras) na ordem; sempre sobra uma pecinha",
+    "ordenar": "tocar nas figuras ou números na ordem pedida",
+    "colocar": "tocar no lugar da cena onde o objeto deve ficar",
+    "rota": "programar o robô com setas e tocar em IR",
+    "pintar": "escolher a tinta e tocar no desenho para pintar"
+  },
+  "perguntas": [
+    {
+      "id": "F-SS-01",
+      "nivel": "Fácil",
+      "atividade": "Sons e Sílabas",
+      "ordem": 1,
+      "area": "Compreensão Auditiva",
+      "habilidade": "Reconhecer o som de um animal",
+      "bncc": "EI03TS03",
+      "enunciado": "Quem faz AU AU?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Escute: | au, au! | Qual animal faz esse som?",
+        "arquivo": "assets/audio/perguntas/F-SS-01.mp3",
+        "dica": "assets/audio/perguntas/F-SS-01-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-SS-01-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Pense em um animal que mora com a gente e late.",
+      "explicacao": "O cachorro late: au, au!",
+      "alternativas": [
+        {
+          "tipo": "imagem",
+          "rotulo": "CACHORRO",
+          "imagem": "assets/img/cachorro.svg",
+          "id": "a"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "GATO",
+          "imagem": "assets/img/gato.svg",
+          "id": "b"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "VACA",
+          "imagem": "assets/img/vaca.svg",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "a"
+    },
+    {
+      "id": "F-SS-02",
+      "nivel": "Fácil",
+      "atividade": "Sons e Sílabas",
+      "ordem": 2,
+      "area": "Consciência Fonológica",
+      "habilidade": "Perceber o som inicial igual (aliteração)",
+      "bncc": "EI03EF02",
+      "enunciado": "Qual começa igual a BOLA?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Escute: BOLA. | Qual figura começa com o mesmo som de BOLA?",
+        "arquivo": "assets/audio/perguntas/F-SS-02.mp3",
+        "dica": "assets/audio/perguntas/F-SS-02-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-SS-02-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Fale devagar: BO, LA. Agora fale o nome de cada figura.",
+      "explicacao": "BALÃO e BOLA começam com o mesmo som.",
+      "alternativas": [
+        {
+          "tipo": "imagem",
+          "rotulo": "BALÃO",
+          "imagem": "assets/img/balao.svg",
+          "id": "a"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "GATO",
+          "imagem": "assets/img/gato.svg",
+          "id": "b"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "UVA",
+          "imagem": "assets/img/uva.svg",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "a"
+    },
+    {
+      "id": "F-SS-03",
+      "nivel": "Fácil",
+      "atividade": "Sons e Sílabas",
+      "ordem": 3,
+      "area": "Consciência Fonológica",
+      "habilidade": "Identificar rimas",
+      "bncc": "EI03EF02",
+      "enunciado": "Qual rima com GATO?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Escute: GATO. | Qual figura termina com o mesmo som de GATO?",
+        "arquivo": "assets/audio/perguntas/F-SS-03.mp3",
+        "dica": "assets/audio/perguntas/F-SS-03-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-SS-03-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Escute o final da palavra: gato. Qual nome também termina assim?",
+      "explicacao": "GATO e PATO rimam: os dois terminam do mesmo jeito.",
+      "alternativas": [
+        {
+          "tipo": "imagem",
+          "rotulo": "PATO",
+          "imagem": "assets/img/pato.svg",
+          "id": "a"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "VACA",
+          "imagem": "assets/img/vaca.svg",
+          "id": "b"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "BOLA",
+          "imagem": "assets/img/bola.svg",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "a"
+    },
+    {
+      "id": "F-SS-04",
+      "nivel": "Fácil",
+      "atividade": "Sons e Sílabas",
+      "ordem": 4,
+      "area": "Consciência Silábica",
+      "habilidade": "Contar as sílabas de uma palavra de duas sílabas",
+      "bncc": "EI03EF02",
+      "enunciado": "Quantas partes tem GATO?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Bata palmas comigo: | GA | TO. | Quantas partes tem a palavra GATO?",
+        "arquivo": "assets/audio/perguntas/F-SS-04.mp3",
+        "dica": "assets/audio/perguntas/F-SS-04-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-SS-04-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "imagem",
+        "imagem": "assets/img/gato.svg"
+      },
+      "dica": "Toque nas mãozinhas e bata uma palma para cada parte da palavra.",
+      "explicacao": "GA, TO: duas palmas, duas partes.",
+      "silabas": [
+        "GA",
+        "TO"
+      ],
+      "silabas_audio": [
+        "assets/audio/perguntas/F-SS-04-silaba-1.mp3",
+        "assets/audio/perguntas/F-SS-04-silaba-2.mp3"
+      ],
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "1",
+          "imagem": null,
+          "valor": 1,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "2",
+          "imagem": null,
+          "valor": 2,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "3",
+          "imagem": null,
+          "valor": 3,
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "F-SS-05",
+      "nivel": "Fácil",
+      "atividade": "Sons e Sílabas",
+      "ordem": 5,
+      "area": "Letras e Palavras",
+      "habilidade": "Montar uma palavra com sílabas",
+      "bncc": "EI03EF09",
+      "enunciado": "Monte a palavra BOLA.",
+      "tipo": "montar",
+      "audio": {
+        "fala": "Vamos escrever BOLA! | Toque nas pecinhas na ordem certa.",
+        "arquivo": "assets/audio/perguntas/F-SS-05.mp3",
+        "dica": "assets/audio/perguntas/F-SS-05-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-SS-05-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "imagem",
+        "imagem": "assets/img/bola.svg"
+      },
+      "dica": "Toque em cada pecinha para ouvir o som dela. BOLA começa com BO.",
+      "explicacao": "BO e LA: BOLA!",
+      "pecas": [
+        "BO",
+        "LA",
+        "CA"
+      ],
+      "pecas_audio": [
+        "assets/audio/perguntas/F-SS-05-peca-1.mp3",
+        "assets/audio/perguntas/F-SS-05-peca-2.mp3",
+        "assets/audio/perguntas/F-SS-05-peca-3.mp3"
+      ],
+      "resposta_correta": [
+        "BO",
+        "LA"
+      ]
+    },
+    {
+      "id": "F-ES-01",
+      "nivel": "Fácil",
+      "atividade": "Noções de Espaço",
+      "ordem": 1,
+      "area": "Noções Espaciais",
+      "habilidade": "Reconhecer a noção de dentro",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Coloque a bola DENTRO da caixa.",
+      "tipo": "colocar",
+      "audio": {
+        "fala": "Toque no lugar onde a bola deve ficar: | DENTRO da caixa.",
+        "arquivo": "assets/audio/perguntas/F-ES-01.mp3",
+        "dica": "assets/audio/perguntas/F-ES-01-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-ES-01-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Dentro é no meio da caixa, onde guardamos as coisas.",
+      "explicacao": "A bola está dentro da caixa.",
+      "cenario": {
+        "base": [
+          {
+            "imagem": "assets/img/caixa.svg",
+            "x": 20,
+            "y": 38,
+            "largura": 60,
+            "z": 2
+          }
+        ],
+        "item": "assets/img/bola.svg",
+        "zonas": [
+          {
+            "id": "dentro",
+            "x": 50,
+            "y": 60,
+            "camadas": [
+              {
+                "imagem": "assets/img/caixa-fundo.svg",
+                "x": 20,
+                "y": 38,
+                "largura": 60,
+                "z": 1
+              },
+              {
+                "imagem": "assets/img/bola.svg",
+                "x": 35,
+                "y": 46,
+                "largura": 30,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/caixa-frente.svg",
+                "x": 20,
+                "y": 38,
+                "largura": 60,
+                "z": 3
+              }
+            ]
+          },
+          {
+            "id": "direita",
+            "x": 89,
+            "y": 80,
+            "camadas": [
+              {
+                "imagem": "assets/img/caixa.svg",
+                "x": 20,
+                "y": 38,
+                "largura": 60,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/bola.svg",
+                "x": 78,
+                "y": 72,
+                "largura": 22,
+                "z": 3
+              }
+            ]
+          }
+        ],
+        "resposta": "dentro"
+      },
+      "resposta_correta": "dentro"
+    },
+    {
+      "id": "F-ES-02",
+      "nivel": "Fácil",
+      "atividade": "Noções de Espaço",
+      "ordem": 2,
+      "area": "Noções Espaciais",
+      "habilidade": "Reconhecer a noção de em cima",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Coloque o gato EM CIMA da mesa.",
+      "tipo": "colocar",
+      "audio": {
+        "fala": "Toque no lugar onde o gato deve ficar: | EM CIMA da mesa.",
+        "arquivo": "assets/audio/perguntas/F-ES-02.mp3",
+        "dica": "assets/audio/perguntas/F-ES-02-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-ES-02-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Em cima é no alto, em cima da madeira da mesa.",
+      "explicacao": "O gato está em cima da mesa.",
+      "cenario": {
+        "base": [
+          {
+            "imagem": "assets/img/mesa.svg",
+            "x": 4,
+            "y": 24,
+            "largura": 70,
+            "z": 2
+          }
+        ],
+        "item": "assets/img/gato.svg",
+        "zonas": [
+          {
+            "id": "em cima",
+            "x": 39,
+            "y": 34,
+            "camadas": [
+              {
+                "imagem": "assets/img/mesa.svg",
+                "x": 4,
+                "y": 24,
+                "largura": 70,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/gato.svg",
+                "x": 24,
+                "y": 22,
+                "largura": 30,
+                "z": 3
+              }
+            ]
+          },
+          {
+            "id": "embaixo",
+            "x": 39,
+            "y": 80,
+            "camadas": [
+              {
+                "imagem": "assets/img/gato.svg",
+                "x": 27,
+                "y": 71,
+                "largura": 24,
+                "z": 1
+              },
+              {
+                "imagem": "assets/img/mesa.svg",
+                "x": 4,
+                "y": 24,
+                "largura": 70,
+                "z": 2
+              }
+            ]
+          }
+        ],
+        "resposta": "em cima"
+      },
+      "resposta_correta": "em cima"
+    },
+    {
+      "id": "F-ES-03",
+      "nivel": "Fácil",
+      "atividade": "Noções de Espaço",
+      "ordem": 3,
+      "area": "Noções Espaciais",
+      "habilidade": "Reconhecer a noção de fora",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Qual gato está FORA da caixa?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Toque no gato que está FORA da caixa.",
+        "arquivo": "assets/audio/perguntas/F-ES-03.mp3",
+        "dica": "assets/audio/perguntas/F-ES-03-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-ES-03-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Fora é quando o gato não está dentro da caixa.",
+      "explicacao": "Este gato está fora da caixa.",
+      "alternativas": [
+        {
+          "tipo": "composicao",
+          "rotulo": "GATO DENTRO DA CAIXA",
+          "imagem": "assets/img/caixa-fundo.svg",
+          "camadas": [
+            {
+              "imagem": "assets/img/caixa-fundo.svg",
+              "x": 20,
+              "y": 38,
+              "largura": 60,
+              "z": 1
+            },
+            {
+              "imagem": "assets/img/gato.svg",
+              "x": 35,
+              "y": 46,
+              "largura": 30,
+              "z": 2
+            },
+            {
+              "imagem": "assets/img/caixa-frente.svg",
+              "x": 20,
+              "y": 38,
+              "largura": 60,
+              "z": 3
+            }
+          ],
+          "id": "a"
+        },
+        {
+          "tipo": "composicao",
+          "rotulo": "GATO FORA DA CAIXA",
+          "imagem": "assets/img/caixa.svg",
+          "camadas": [
+            {
+              "imagem": "assets/img/caixa.svg",
+              "x": 38,
+              "y": 38,
+              "largura": 60,
+              "z": 1
+            },
+            {
+              "imagem": "assets/img/gato.svg",
+              "x": 2,
+              "y": 64,
+              "largura": 30,
+              "z": 2
+            }
+          ],
+          "id": "b"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "F-ES-04",
+      "nivel": "Fácil",
+      "atividade": "Noções de Espaço",
+      "ordem": 4,
+      "area": "Noções Espaciais",
+      "habilidade": "Indicar a direção de um deslocamento",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Para que lado o robô deve ir?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "O robô quer pegar o cristal. | Para que lado ele precisa andar?",
+        "arquivo": "assets/audio/perguntas/F-ES-04.mp3",
+        "dica": "assets/audio/perguntas/F-ES-04-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-ES-04-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "tabuleiro",
+        "colunas": 3,
+        "linhas": 1,
+        "inicio": [
+          0,
+          0
+        ],
+        "alvo": [
+          2,
+          0
+        ],
+        "obstaculos": []
+      },
+      "dica": "Passe o dedo do robô até o cristal. Para que lado o dedo foi?",
+      "explicacao": "O cristal está do lado direito: o robô anda para a direita.",
+      "alternativas": [
+        {
+          "tipo": "seta",
+          "rotulo": "PARA A ESQUERDA",
+          "imagem": null,
+          "direcao": "esquerda",
+          "id": "a"
+        },
+        {
+          "tipo": "seta",
+          "rotulo": "PARA A DIREITA",
+          "imagem": null,
+          "direcao": "direita",
+          "id": "b"
+        },
+        {
+          "tipo": "seta",
+          "rotulo": "PARA CIMA",
+          "imagem": null,
+          "direcao": "cima",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "F-ES-05",
+      "nivel": "Fácil",
+      "atividade": "Noções de Espaço",
+      "ordem": 5,
+      "area": "Noções Espaciais",
+      "habilidade": "Programar um caminho curto",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Leve o robô até o cristal.",
+      "tipo": "rota",
+      "audio": {
+        "fala": "Use as setas para levar o robô até o cristal. | Depois toque em IR!",
+        "arquivo": "assets/audio/perguntas/F-ES-05.mp3",
+        "dica": "assets/audio/perguntas/F-ES-05-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-ES-05-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "O cristal está em cima do robô. Qual seta aponta para cima?",
+      "explicacao": "Duas vezes para cima: o robô chegou no cristal!",
+      "grade": {
+        "colunas": 3,
+        "linhas": 3,
+        "inicio": [
+          0,
+          0
+        ],
+        "alvo": [
+          0,
+          2
+        ],
+        "obstaculos": [],
+        "max": 4
+      },
+      "resposta_correta": "qualquer caminho até o cristal (o menor tem 2 passos)"
+    },
+    {
+      "id": "F-MA-01",
+      "nivel": "Fácil",
+      "atividade": "Matemática Simples",
+      "ordem": 1,
+      "area": "Contagem e Quantidades",
+      "habilidade": "Contar até 3",
+      "bncc": "EI03ET07",
+      "enunciado": "Quantas naves?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Toque em cada nave para contar. | Quantas naves tem aqui?",
+        "arquivo": "assets/audio/perguntas/F-MA-01.mp3",
+        "dica": "assets/audio/perguntas/F-MA-01-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-MA-01-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "grupo",
+        "itens": [
+          {
+            "imagem": "assets/img/nave.svg",
+            "quantidade": 3
+          }
+        ]
+      },
+      "dica": "Toque em cada nave e conte junto comigo.",
+      "explicacao": "Um, dois, três: são três naves.",
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "2",
+          "imagem": null,
+          "valor": 2,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "3",
+          "imagem": null,
+          "valor": 3,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "4",
+          "imagem": null,
+          "valor": 4,
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "F-MA-02",
+      "nivel": "Fácil",
+      "atividade": "Matemática Simples",
+      "ordem": 2,
+      "area": "Grandezas e Comparações",
+      "habilidade": "Comparar quantidades: mais",
+      "bncc": "EI03ET01",
+      "enunciado": "Onde tem MAIS cristais?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Onde tem MAIS cristais?",
+        "arquivo": "assets/audio/perguntas/F-MA-02.mp3",
+        "dica": "assets/audio/perguntas/F-MA-02-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-MA-02-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Conte os cristais de cada grupo.",
+      "explicacao": "Aqui tem quatro cristais. Quatro é mais que dois.",
+      "alternativas": [
+        {
+          "tipo": "grupo",
+          "rotulo": "DOIS CRISTAIS",
+          "imagem": "assets/img/cristal.svg",
+          "itens": [
+            {
+              "imagem": "assets/img/cristal.svg",
+              "quantidade": 2
+            }
+          ],
+          "id": "a"
+        },
+        {
+          "tipo": "grupo",
+          "rotulo": "QUATRO CRISTAIS",
+          "imagem": "assets/img/cristal.svg",
+          "itens": [
+            {
+              "imagem": "assets/img/cristal.svg",
+              "quantidade": 4
+            }
+          ],
+          "id": "b"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "F-MA-03",
+      "nivel": "Fácil",
+      "atividade": "Matemática Simples",
+      "ordem": 3,
+      "area": "Contagem e Quantidades",
+      "habilidade": "Contar até 5",
+      "bncc": "EI03ET07",
+      "enunciado": "Quantas estrelas?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Toque em cada estrela para contar. | Quantas estrelas tem aqui?",
+        "arquivo": "assets/audio/perguntas/F-MA-03.mp3",
+        "dica": "assets/audio/perguntas/F-MA-03-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-MA-03-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "grupo",
+        "itens": [
+          {
+            "imagem": "assets/img/estrela.svg",
+            "quantidade": 5
+          }
+        ]
+      },
+      "dica": "Toque em cada estrela uma vez só, contando em voz alta.",
+      "explicacao": "São cinco estrelas.",
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "4",
+          "imagem": null,
+          "valor": 4,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "5",
+          "imagem": null,
+          "valor": 5,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "6",
+          "imagem": null,
+          "valor": 6,
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "F-MA-04",
+      "nivel": "Fácil",
+      "atividade": "Matemática Simples",
+      "ordem": 4,
+      "area": "Contagem e Quantidades",
+      "habilidade": "Ordenar números de 1 a 3",
+      "bncc": "EI03ET07",
+      "enunciado": "Coloque os números em ordem.",
+      "tipo": "ordenar",
+      "audio": {
+        "fala": "Coloque os números em ordem: | um, | dois, | três.",
+        "arquivo": "assets/audio/perguntas/F-MA-04.mp3",
+        "dica": "assets/audio/perguntas/F-MA-04-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-MA-04-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Qual número vem primeiro quando a gente conta?",
+      "explicacao": "Um, dois, três: essa é a ordem da contagem.",
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "2",
+          "imagem": null,
+          "valor": 2,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "3",
+          "imagem": null,
+          "valor": 3,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "1",
+          "imagem": null,
+          "valor": 1,
+          "id": "c"
+        }
+      ],
+      "resposta_correta": [
+        "c",
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "F-MA-05",
+      "nivel": "Fácil",
+      "atividade": "Matemática Simples",
+      "ordem": 5,
+      "area": "Contagem e Quantidades",
+      "habilidade": "Juntar quantidades",
+      "bncc": "EI03ET07",
+      "enunciado": "Duas naves e mais uma.",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Tinha duas naves. | Chegou mais uma nave. | Quantas naves ficaram?",
+        "arquivo": "assets/audio/perguntas/F-MA-05.mp3",
+        "dica": "assets/audio/perguntas/F-MA-05-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-MA-05-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "operacao",
+        "partes": [
+          {
+            "imagem": "assets/img/nave.svg",
+            "quantidade": 2
+          },
+          "+",
+          {
+            "imagem": "assets/img/nave.svg",
+            "quantidade": 1
+          }
+        ]
+      },
+      "dica": "Toque em todas as naves e conte juntas.",
+      "explicacao": "Duas naves e mais uma nave são três naves.",
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "2",
+          "imagem": null,
+          "valor": 2,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "3",
+          "imagem": null,
+          "valor": 3,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "4",
+          "imagem": null,
+          "valor": 4,
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "F-CO-01",
+      "nivel": "Fácil",
+      "atividade": "Cores",
+      "ordem": 1,
+      "area": "Cores",
+      "habilidade": "Reconhecer a cor azul pelo nome",
+      "bncc": "EI03ET05",
+      "enunciado": "Toque na cor AZUL.",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Toque na cor AZUL, | a cor do céu.",
+        "arquivo": "assets/audio/perguntas/F-CO-01.mp3",
+        "dica": "assets/audio/perguntas/F-CO-01-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-CO-01-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Azul é a cor do céu num dia de sol.",
+      "explicacao": "Esta é a cor azul.",
+      "alternativas": [
+        {
+          "tipo": "cor",
+          "rotulo": "AZUL",
+          "imagem": null,
+          "cor": "#1E63D6",
+          "nome_cor": "AZUL",
+          "id": "a"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "VERMELHO",
+          "imagem": null,
+          "cor": "#E53935",
+          "nome_cor": "VERMELHO",
+          "id": "b"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "AMARELO",
+          "imagem": null,
+          "cor": "#FFD000",
+          "nome_cor": "AMARELO",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "a"
+    },
+    {
+      "id": "F-CO-02",
+      "nivel": "Fácil",
+      "atividade": "Cores",
+      "ordem": 2,
+      "area": "Cores",
+      "habilidade": "Associar a cor a um objeto conhecido",
+      "bncc": "EI03ET05",
+      "enunciado": "De que cor é a banana?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "A banana perdeu a cor! | De que cor é a banana?",
+        "arquivo": "assets/audio/perguntas/F-CO-02.mp3",
+        "dica": "assets/audio/perguntas/F-CO-02-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-CO-02-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "desenho",
+        "desenho": "banana",
+        "imagem": "assets/img/pintar/banana.svg"
+      },
+      "dica": "Lembre de uma banana bem madurinha.",
+      "explicacao": "A banana é amarela.",
+      "alternativas": [
+        {
+          "tipo": "cor",
+          "rotulo": "AMARELO",
+          "imagem": null,
+          "cor": "#FFD000",
+          "nome_cor": "AMARELO",
+          "id": "a"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "AZUL",
+          "imagem": null,
+          "cor": "#1E63D6",
+          "nome_cor": "AZUL",
+          "id": "b"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "VERDE",
+          "imagem": null,
+          "cor": "#2E9D3A",
+          "nome_cor": "VERDE",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "a"
+    },
+    {
+      "id": "F-CO-03",
+      "nivel": "Fácil",
+      "atividade": "Cores",
+      "ordem": 3,
+      "area": "Cores",
+      "habilidade": "Pintar um desenho com a cor pedida",
+      "bncc": "EI03TS02",
+      "enunciado": "Pinte o sol de AMARELO.",
+      "tipo": "pintar",
+      "audio": {
+        "fala": "Vamos pintar! | Toque na tinta AMARELA para pintar o sol.",
+        "arquivo": "assets/audio/perguntas/F-CO-03.mp3",
+        "dica": "assets/audio/perguntas/F-CO-03-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-CO-03-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Amarelo é a cor do sol e da banana.",
+      "explicacao": "O sol ficou amarelo!",
+      "objetos": [
+        {
+          "id": "a",
+          "desenho": "sol",
+          "imagem": "assets/img/pintar/sol.svg",
+          "cor": "#FFD000",
+          "nome_cor": "AMARELO"
+        }
+      ],
+      "paleta": [
+        {
+          "nome": "AZUL",
+          "cor": "#1E63D6"
+        },
+        {
+          "nome": "AMARELO",
+          "cor": "#FFD000"
+        },
+        {
+          "nome": "VERDE",
+          "cor": "#2E9D3A"
+        }
+      ],
+      "resposta_correta": {
+        "a": "AMARELO"
+      }
+    },
+    {
+      "id": "F-CO-04",
+      "nivel": "Fácil",
+      "atividade": "Cores",
+      "ordem": 4,
+      "area": "Cores",
+      "habilidade": "Encontrar a cor diferente",
+      "bncc": "EI03ET05",
+      "enunciado": "Qual bola é DIFERENTE?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Uma bola tem a cor diferente das outras. | Qual é?",
+        "arquivo": "assets/audio/perguntas/F-CO-04.mp3",
+        "dica": "assets/audio/perguntas/F-CO-04-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-CO-04-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Olhe as cores. Três bolas são iguais.",
+      "explicacao": "Esta bola é azul. As outras são vermelhas.",
+      "alternativas": [
+        {
+          "tipo": "pintada",
+          "rotulo": "BOLA VERMELHA",
+          "imagem": "assets/img/pintar/bola.svg",
+          "desenho": "bola",
+          "cor": "#E53935",
+          "id": "a"
+        },
+        {
+          "tipo": "pintada",
+          "rotulo": "BOLA VERMELHA",
+          "imagem": "assets/img/pintar/bola.svg",
+          "desenho": "bola",
+          "cor": "#E53935",
+          "id": "b"
+        },
+        {
+          "tipo": "pintada",
+          "rotulo": "BOLA AZUL",
+          "imagem": "assets/img/pintar/bola.svg",
+          "desenho": "bola",
+          "cor": "#1E63D6",
+          "id": "c"
+        },
+        {
+          "tipo": "pintada",
+          "rotulo": "BOLA VERMELHA",
+          "imagem": "assets/img/pintar/bola.svg",
+          "desenho": "bola",
+          "cor": "#E53935",
+          "id": "d"
+        }
+      ],
+      "resposta_correta": "c"
+    },
+    {
+      "id": "F-CO-05",
+      "nivel": "Fácil",
+      "atividade": "Cores",
+      "ordem": 5,
+      "area": "Cores",
+      "habilidade": "Completar um padrão de cores AB",
+      "bncc": "EI03CO01",
+      "enunciado": "Que cor vem depois?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Vermelho, azul, vermelho, azul… | Que cor vem depois?",
+        "arquivo": "assets/audio/perguntas/F-CO-05.mp3",
+        "dica": "assets/audio/perguntas/F-CO-05-dica.mp3",
+        "explicacao": "assets/audio/perguntas/F-CO-05-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "sequencia",
+        "itens": [
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#E53935"
+          },
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#1E63D6"
+          },
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#E53935"
+          },
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#1E63D6"
+          },
+          {
+            "tipo": "lacuna"
+          }
+        ]
+      },
+      "dica": "Fale as cores em voz alta: vermelho, azul, vermelho, azul…",
+      "explicacao": "Depois do azul vem o vermelho.",
+      "alternativas": [
+        {
+          "tipo": "cor",
+          "rotulo": "VERMELHO",
+          "imagem": null,
+          "cor": "#E53935",
+          "nome_cor": "VERMELHO",
+          "id": "a"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "AZUL",
+          "imagem": null,
+          "cor": "#1E63D6",
+          "nome_cor": "AZUL",
+          "id": "b"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "AMARELO",
+          "imagem": null,
+          "cor": "#FFD000",
+          "nome_cor": "AMARELO",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "a"
+    },
+    {
+      "id": "M-SS-01",
+      "nivel": "Médio",
+      "atividade": "Sons e Sílabas",
+      "ordem": 1,
+      "area": "Compreensão Auditiva",
+      "habilidade": "Compreender uma frase ouvida",
+      "bncc": "EI03EF01",
+      "enunciado": "Quem pulou na lagoa?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Escute com atenção: | O sapo pulou na lagoa. | Quem pulou?",
+        "arquivo": "assets/audio/perguntas/M-SS-01.mp3",
+        "dica": "assets/audio/perguntas/M-SS-01-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-SS-01-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Escute a frase de novo e preste atenção em quem pulou.",
+      "explicacao": "Foi o sapo que pulou na lagoa.",
+      "alternativas": [
+        {
+          "tipo": "imagem",
+          "rotulo": "PATO",
+          "imagem": "assets/img/pato.svg",
+          "id": "a"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "SAPO",
+          "imagem": "assets/img/sapo.svg",
+          "id": "b"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "PEIXE",
+          "imagem": "assets/img/peixe.svg",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "M-SS-02",
+      "nivel": "Médio",
+      "atividade": "Sons e Sílabas",
+      "ordem": 2,
+      "area": "Letras e Palavras",
+      "habilidade": "Relacionar a letra inicial à palavra",
+      "bncc": "EI03EF09",
+      "enunciado": "Qual começa com a letra M?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Esta é a letra M. | Qual figura começa com a letra M?",
+        "arquivo": "assets/audio/perguntas/M-SS-02.mp3",
+        "dica": "assets/audio/perguntas/M-SS-02-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-SS-02-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "palavra",
+        "texto": "M"
+      },
+      "dica": "Pense em palavras como MAMÃE. Qual figura começa com esse som?",
+      "explicacao": "MACACO começa com a letra M.",
+      "alternativas": [
+        {
+          "tipo": "imagem",
+          "rotulo": "MACACO",
+          "imagem": "assets/img/macaco.svg",
+          "id": "a"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "SAPO",
+          "imagem": "assets/img/sapo.svg",
+          "id": "b"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "PATO",
+          "imagem": "assets/img/pato.svg",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "a"
+    },
+    {
+      "id": "M-SS-03",
+      "nivel": "Médio",
+      "atividade": "Sons e Sílabas",
+      "ordem": 3,
+      "area": "Consciência Silábica",
+      "habilidade": "Contar as sílabas de uma palavra de três sílabas",
+      "bncc": "EI03EF02",
+      "enunciado": "Quantas partes tem MACACO?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Bata palmas comigo: | MA | CA | CO. | Quantas partes tem a palavra MACACO?",
+        "arquivo": "assets/audio/perguntas/M-SS-03.mp3",
+        "dica": "assets/audio/perguntas/M-SS-03-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-SS-03-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "imagem",
+        "imagem": "assets/img/macaco.svg"
+      },
+      "dica": "Toque nas mãozinhas uma vez para cada parte: MA, CA, CO.",
+      "explicacao": "MA, CA, CO: três palmas, três partes.",
+      "silabas": [
+        "MA",
+        "CA",
+        "CO"
+      ],
+      "silabas_audio": [
+        "assets/audio/perguntas/M-SS-03-silaba-1.mp3",
+        "assets/audio/perguntas/M-SS-03-silaba-2.mp3",
+        "assets/audio/perguntas/M-SS-03-silaba-3.mp3"
+      ],
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "2",
+          "imagem": null,
+          "valor": 2,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "3",
+          "imagem": null,
+          "valor": 3,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "4",
+          "imagem": null,
+          "valor": 4,
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "M-SS-04",
+      "nivel": "Médio",
+      "atividade": "Sons e Sílabas",
+      "ordem": 4,
+      "area": "Letras e Palavras",
+      "habilidade": "Montar uma palavra com letras",
+      "bncc": "EI03EF09",
+      "enunciado": "Monte a palavra SOL.",
+      "tipo": "montar",
+      "audio": {
+        "fala": "Vamos escrever SOL! | Toque nas letras na ordem certa.",
+        "arquivo": "assets/audio/perguntas/M-SS-04.mp3",
+        "dica": "assets/audio/perguntas/M-SS-04-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-SS-04-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "imagem",
+        "imagem": "assets/img/sol.svg"
+      },
+      "dica": "Toque nas letras para ouvir o nome delas. SOL começa com a letra S.",
+      "explicacao": "S, O, L: SOL!",
+      "pecas": [
+        "S",
+        "O",
+        "L",
+        "U"
+      ],
+      "pecas_audio": [
+        "assets/audio/letras/s.mp3",
+        "assets/audio/letras/o.mp3",
+        "assets/audio/letras/l.mp3",
+        "assets/audio/letras/u.mp3"
+      ],
+      "resposta_correta": [
+        "S",
+        "O",
+        "L"
+      ]
+    },
+    {
+      "id": "M-SS-05",
+      "nivel": "Médio",
+      "atividade": "Sons e Sílabas",
+      "ordem": 5,
+      "area": "Letras e Palavras",
+      "habilidade": "Montar uma palavra de três sílabas",
+      "bncc": "EI03EF09",
+      "enunciado": "Monte a palavra MACACO.",
+      "tipo": "montar",
+      "audio": {
+        "fala": "Vamos escrever MACACO! | Toque nas pecinhas na ordem certa.",
+        "arquivo": "assets/audio/perguntas/M-SS-05.mp3",
+        "dica": "assets/audio/perguntas/M-SS-05-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-SS-05-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "imagem",
+        "imagem": "assets/img/macaco.svg"
+      },
+      "dica": "MACACO começa com MA. Toque nas pecinhas para ouvir o som delas.",
+      "explicacao": "MA, CA, CO: MACACO!",
+      "pecas": [
+        "MA",
+        "CA",
+        "CO",
+        "PA"
+      ],
+      "pecas_audio": [
+        "assets/audio/perguntas/M-SS-05-peca-1.mp3",
+        "assets/audio/perguntas/M-SS-05-peca-2.mp3",
+        "assets/audio/perguntas/M-SS-05-peca-3.mp3",
+        "assets/audio/perguntas/M-SS-05-peca-4.mp3"
+      ],
+      "resposta_correta": [
+        "MA",
+        "CA",
+        "CO"
+      ]
+    },
+    {
+      "id": "M-ES-01",
+      "nivel": "Médio",
+      "atividade": "Noções de Espaço",
+      "ordem": 1,
+      "area": "Noções Espaciais",
+      "habilidade": "Diferenciar em cima, embaixo e ao lado",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Coloque o gato EMBAIXO da mesa.",
+      "tipo": "colocar",
+      "audio": {
+        "fala": "Toque no lugar onde o gato deve ficar: | EMBAIXO da mesa.",
+        "arquivo": "assets/audio/perguntas/M-ES-01.mp3",
+        "dica": "assets/audio/perguntas/M-ES-01-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-ES-01-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Embaixo é na parte de baixo, entre as pernas da mesa.",
+      "explicacao": "O gato está embaixo da mesa.",
+      "cenario": {
+        "base": [
+          {
+            "imagem": "assets/img/mesa.svg",
+            "x": 4,
+            "y": 24,
+            "largura": 70,
+            "z": 2
+          }
+        ],
+        "item": "assets/img/gato.svg",
+        "zonas": [
+          {
+            "id": "em cima",
+            "x": 39,
+            "y": 34,
+            "camadas": [
+              {
+                "imagem": "assets/img/mesa.svg",
+                "x": 4,
+                "y": 24,
+                "largura": 70,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/gato.svg",
+                "x": 24,
+                "y": 22,
+                "largura": 30,
+                "z": 3
+              }
+            ]
+          },
+          {
+            "id": "embaixo",
+            "x": 39,
+            "y": 80,
+            "camadas": [
+              {
+                "imagem": "assets/img/gato.svg",
+                "x": 27,
+                "y": 71,
+                "largura": 24,
+                "z": 1
+              },
+              {
+                "imagem": "assets/img/mesa.svg",
+                "x": 4,
+                "y": 24,
+                "largura": 70,
+                "z": 2
+              }
+            ]
+          },
+          {
+            "id": "ao lado",
+            "x": 88,
+            "y": 80,
+            "camadas": [
+              {
+                "imagem": "assets/img/mesa.svg",
+                "x": 4,
+                "y": 24,
+                "largura": 70,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/gato.svg",
+                "x": 76,
+                "y": 71,
+                "largura": 24,
+                "z": 3
+              }
+            ]
+          }
+        ],
+        "resposta": "embaixo"
+      },
+      "resposta_correta": "embaixo"
+    },
+    {
+      "id": "M-ES-02",
+      "nivel": "Médio",
+      "atividade": "Noções de Espaço",
+      "ordem": 2,
+      "area": "Noções Espaciais",
+      "habilidade": "Reconhecer a noção de entre",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Coloque o pássaro ENTRE as árvores.",
+      "tipo": "colocar",
+      "audio": {
+        "fala": "Toque no lugar onde o pássaro deve ficar: | ENTRE as duas árvores.",
+        "arquivo": "assets/audio/perguntas/M-ES-02.mp3",
+        "dica": "assets/audio/perguntas/M-ES-02-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-ES-02-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Entre é no meio: uma árvore de um lado e a outra do outro lado.",
+      "explicacao": "O pássaro está entre as árvores, bem no meio delas.",
+      "cenario": {
+        "base": [
+          {
+            "imagem": "assets/img/arvore.svg",
+            "x": 8,
+            "y": 65.8,
+            "largura": 30,
+            "z": 2
+          },
+          {
+            "imagem": "assets/img/arvore.svg",
+            "x": 62,
+            "y": 65.8,
+            "largura": 30,
+            "z": 2
+          }
+        ],
+        "item": "assets/img/passaro.svg",
+        "zonas": [
+          {
+            "id": "entre",
+            "x": 50,
+            "y": 84,
+            "camadas": [
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 8,
+                "y": 65.8,
+                "largura": 30,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 62,
+                "y": 65.8,
+                "largura": 30,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/passaro.svg",
+                "x": 40,
+                "y": 75,
+                "largura": 20,
+                "z": 3
+              }
+            ]
+          },
+          {
+            "id": "em cima 1",
+            "x": 23,
+            "y": 52,
+            "camadas": [
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 8,
+                "y": 65.8,
+                "largura": 30,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 62,
+                "y": 65.8,
+                "largura": 30,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/passaro.svg",
+                "x": 14,
+                "y": 50,
+                "largura": 18,
+                "z": 3
+              }
+            ]
+          },
+          {
+            "id": "em cima 2",
+            "x": 77,
+            "y": 52,
+            "camadas": [
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 8,
+                "y": 65.8,
+                "largura": 30,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 62,
+                "y": 65.8,
+                "largura": 30,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/passaro.svg",
+                "x": 68,
+                "y": 50,
+                "largura": 18,
+                "z": 3
+              }
+            ]
+          }
+        ],
+        "resposta": "entre"
+      },
+      "resposta_correta": "entre"
+    },
+    {
+      "id": "M-ES-03",
+      "nivel": "Médio",
+      "atividade": "Noções de Espaço",
+      "ordem": 3,
+      "area": "Noções Espaciais",
+      "habilidade": "Diferenciar na frente e atrás",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Qual gato está ATRÁS da caixa?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Toque no gato que está ATRÁS da caixa.",
+        "arquivo": "assets/audio/perguntas/M-ES-03.mp3",
+        "dica": "assets/audio/perguntas/M-ES-03-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-ES-03-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Atrás é quando a caixa esconde um pedaço do gato.",
+      "explicacao": "Este gato está atrás da caixa: a caixa esconde um pedaço dele.",
+      "alternativas": [
+        {
+          "tipo": "composicao",
+          "rotulo": "GATO NA FRENTE DA CAIXA",
+          "imagem": "assets/img/caixa.svg",
+          "camadas": [
+            {
+              "imagem": "assets/img/caixa.svg",
+              "x": 20,
+              "y": 20,
+              "largura": 60,
+              "z": 1
+            },
+            {
+              "imagem": "assets/img/gato.svg",
+              "x": 34,
+              "y": 60,
+              "largura": 36,
+              "z": 2
+            }
+          ],
+          "id": "a"
+        },
+        {
+          "tipo": "composicao",
+          "rotulo": "GATO ATRÁS DA CAIXA",
+          "imagem": "assets/img/gato.svg",
+          "camadas": [
+            {
+              "imagem": "assets/img/gato.svg",
+              "x": 54,
+              "y": 58,
+              "largura": 38,
+              "z": 1
+            },
+            {
+              "imagem": "assets/img/caixa.svg",
+              "x": 8,
+              "y": 38,
+              "largura": 60,
+              "z": 2
+            }
+          ],
+          "id": "b"
+        },
+        {
+          "tipo": "composicao",
+          "rotulo": "GATO FORA DA CAIXA",
+          "imagem": "assets/img/caixa.svg",
+          "camadas": [
+            {
+              "imagem": "assets/img/caixa.svg",
+              "x": 38,
+              "y": 38,
+              "largura": 60,
+              "z": 1
+            },
+            {
+              "imagem": "assets/img/gato.svg",
+              "x": 2,
+              "y": 64,
+              "largura": 30,
+              "z": 2
+            }
+          ],
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "M-ES-04",
+      "nivel": "Médio",
+      "atividade": "Noções de Espaço",
+      "ordem": 4,
+      "area": "Noções Espaciais",
+      "habilidade": "Diferenciar perto e longe",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Qual cachorro está PERTO da casa?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Toque no cachorro que está PERTO da casinha.",
+        "arquivo": "assets/audio/perguntas/M-ES-04.mp3",
+        "dica": "assets/audio/perguntas/M-ES-04-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-ES-04-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Perto é bem juntinho. Qual cachorro está colado na casa?",
+      "explicacao": "Este cachorro está pertinho da casa.",
+      "alternativas": [
+        {
+          "tipo": "composicao",
+          "rotulo": "CACHORRO LONGE DA CASA",
+          "imagem": "assets/img/casa.svg",
+          "camadas": [
+            {
+              "imagem": "assets/img/casa.svg",
+              "x": 4,
+              "y": 50.8,
+              "largura": 46,
+              "z": 1
+            },
+            {
+              "imagem": "assets/img/cachorro.svg",
+              "x": 78,
+              "y": 73,
+              "largura": 22,
+              "z": 2
+            }
+          ],
+          "id": "a"
+        },
+        {
+          "tipo": "composicao",
+          "rotulo": "CACHORRO PERTO DA CASA",
+          "imagem": "assets/img/casa.svg",
+          "camadas": [
+            {
+              "imagem": "assets/img/casa.svg",
+              "x": 4,
+              "y": 50.8,
+              "largura": 46,
+              "z": 1
+            },
+            {
+              "imagem": "assets/img/cachorro.svg",
+              "x": 48,
+              "y": 73,
+              "largura": 22,
+              "z": 2
+            }
+          ],
+          "id": "b"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "M-ES-05",
+      "nivel": "Médio",
+      "atividade": "Noções de Espaço",
+      "ordem": 5,
+      "area": "Noções Espaciais",
+      "habilidade": "Programar um caminho desviando de um buraco",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Leve o robô até o cristal.",
+      "tipo": "rota",
+      "audio": {
+        "fala": "Leve o robô até o cristal. | Cuidado com o buraco!",
+        "arquivo": "assets/audio/perguntas/M-ES-05.mp3",
+        "dica": "assets/audio/perguntas/M-ES-05-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-ES-05-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Não dá para ir reto: o buraco está no caminho. Vá primeiro para cima.",
+      "explicacao": "Uma solução: para cima, três vezes para o lado e para baixo.",
+      "grade": {
+        "colunas": 4,
+        "linhas": 3,
+        "inicio": [
+          0,
+          0
+        ],
+        "alvo": [
+          3,
+          0
+        ],
+        "obstaculos": [
+          [
+            2,
+            0
+          ]
+        ],
+        "max": 6
+      },
+      "resposta_correta": "qualquer caminho até o cristal (o menor tem 5 passos)"
+    },
+    {
+      "id": "M-MA-01",
+      "nivel": "Médio",
+      "atividade": "Matemática Simples",
+      "ordem": 1,
+      "area": "Contagem e Quantidades",
+      "habilidade": "Contar até 7",
+      "bncc": "EI03ET07",
+      "enunciado": "Quantos cristais?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Toque em cada cristal para contar. | Quantos cristais tem aqui?",
+        "arquivo": "assets/audio/perguntas/M-MA-01.mp3",
+        "dica": "assets/audio/perguntas/M-MA-01-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-MA-01-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "grupo",
+        "itens": [
+          {
+            "imagem": "assets/img/cristal.svg",
+            "quantidade": 7
+          }
+        ]
+      },
+      "dica": "Toque em cada cristal uma vez só. O número aparece em cima dele.",
+      "explicacao": "São sete cristais.",
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "6",
+          "imagem": null,
+          "valor": 6,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "7",
+          "imagem": null,
+          "valor": 7,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "8",
+          "imagem": null,
+          "valor": 8,
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "M-MA-02",
+      "nivel": "Médio",
+      "atividade": "Matemática Simples",
+      "ordem": 2,
+      "area": "Contagem e Quantidades",
+      "habilidade": "Relacionar número e quantidade",
+      "bncc": "EI03ET07",
+      "enunciado": "Qual grupo tem 6 estrelas?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Toque no grupo que tem SEIS estrelas.",
+        "arquivo": "assets/audio/perguntas/M-MA-02.mp3",
+        "dica": "assets/audio/perguntas/M-MA-02-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-MA-02-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Conte as estrelas de cada grupo até achar seis.",
+      "explicacao": "Este grupo tem seis estrelas.",
+      "alternativas": [
+        {
+          "tipo": "grupo",
+          "rotulo": "CINCO ESTRELAS",
+          "imagem": "assets/img/estrela.svg",
+          "itens": [
+            {
+              "imagem": "assets/img/estrela.svg",
+              "quantidade": 5
+            }
+          ],
+          "id": "a"
+        },
+        {
+          "tipo": "grupo",
+          "rotulo": "SEIS ESTRELAS",
+          "imagem": "assets/img/estrela.svg",
+          "itens": [
+            {
+              "imagem": "assets/img/estrela.svg",
+              "quantidade": 6
+            }
+          ],
+          "id": "b"
+        },
+        {
+          "tipo": "grupo",
+          "rotulo": "OITO ESTRELAS",
+          "imagem": "assets/img/estrela.svg",
+          "itens": [
+            {
+              "imagem": "assets/img/estrela.svg",
+              "quantidade": 8
+            }
+          ],
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "M-MA-03",
+      "nivel": "Médio",
+      "atividade": "Matemática Simples",
+      "ordem": 3,
+      "area": "Contagem e Quantidades",
+      "habilidade": "Juntar quantidades até 5",
+      "bncc": "EI03ET07",
+      "enunciado": "Três cristais e mais dois.",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Tinha três cristais. | Achei mais dois. | Quantos cristais eu tenho agora?",
+        "arquivo": "assets/audio/perguntas/M-MA-03.mp3",
+        "dica": "assets/audio/perguntas/M-MA-03-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-MA-03-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "operacao",
+        "partes": [
+          {
+            "imagem": "assets/img/cristal.svg",
+            "quantidade": 3
+          },
+          "+",
+          {
+            "imagem": "assets/img/cristal.svg",
+            "quantidade": 2
+          }
+        ]
+      },
+      "dica": "Toque em todos os cristais e conte juntos.",
+      "explicacao": "Três cristais e mais dois são cinco cristais.",
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "4",
+          "imagem": null,
+          "valor": 4,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "5",
+          "imagem": null,
+          "valor": 5,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "6",
+          "imagem": null,
+          "valor": 6,
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "M-MA-04",
+      "nivel": "Médio",
+      "atividade": "Matemática Simples",
+      "ordem": 4,
+      "area": "Contagem e Quantidades",
+      "habilidade": "Ordenar números até 5",
+      "bncc": "EI03ET07",
+      "enunciado": "Do MENOR para o MAIOR.",
+      "tipo": "ordenar",
+      "audio": {
+        "fala": "Coloque os números do MENOR para o MAIOR.",
+        "arquivo": "assets/audio/perguntas/M-MA-04.mp3",
+        "dica": "assets/audio/perguntas/M-MA-04-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-MA-04-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Conte em voz alta: um, dois, três… Qual destes aparece primeiro?",
+      "explicacao": "Dois, três, quatro, cinco: do menor para o maior.",
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "4",
+          "imagem": null,
+          "valor": 4,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "2",
+          "imagem": null,
+          "valor": 2,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "5",
+          "imagem": null,
+          "valor": 5,
+          "id": "c"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "3",
+          "imagem": null,
+          "valor": 3,
+          "id": "d"
+        }
+      ],
+      "resposta_correta": [
+        "b",
+        "d",
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "M-MA-05",
+      "nivel": "Médio",
+      "atividade": "Matemática Simples",
+      "ordem": 5,
+      "area": "Contagem e Quantidades",
+      "habilidade": "Identificar o número que vem entre dois outros",
+      "bncc": "EI03ET07",
+      "enunciado": "Qual número vem ENTRE 4 e 6?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Quatro, | qual número? | seis. | Qual número está faltando no meio?",
+        "arquivo": "assets/audio/perguntas/M-MA-05.mp3",
+        "dica": "assets/audio/perguntas/M-MA-05-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-MA-05-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "sequencia",
+        "itens": [
+          {
+            "tipo": "numero",
+            "valor": 4
+          },
+          {
+            "tipo": "lacuna"
+          },
+          {
+            "tipo": "numero",
+            "valor": 6
+          }
+        ]
+      },
+      "dica": "Conte: quatro, … seis. Que número você falou no meio?",
+      "explicacao": "Quatro, cinco, seis: o cinco fica entre o quatro e o seis.",
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "3",
+          "imagem": null,
+          "valor": 3,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "5",
+          "imagem": null,
+          "valor": 5,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "7",
+          "imagem": null,
+          "valor": 7,
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "M-CO-01",
+      "nivel": "Médio",
+      "atividade": "Cores",
+      "ordem": 1,
+      "area": "Cores",
+      "habilidade": "Reconhecer a cor verde pelo nome",
+      "bncc": "EI03ET05",
+      "enunciado": "Toque na cor VERDE.",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Toque na cor VERDE, | a cor das folhas.",
+        "arquivo": "assets/audio/perguntas/M-CO-01.mp3",
+        "dica": "assets/audio/perguntas/M-CO-01-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-CO-01-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Verde é a cor da grama e das folhas.",
+      "explicacao": "Esta é a cor verde.",
+      "alternativas": [
+        {
+          "tipo": "cor",
+          "rotulo": "AZUL",
+          "imagem": null,
+          "cor": "#1E63D6",
+          "nome_cor": "AZUL",
+          "id": "a"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "VERDE",
+          "imagem": null,
+          "cor": "#2E9D3A",
+          "nome_cor": "VERDE",
+          "id": "b"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "AMARELO",
+          "imagem": null,
+          "cor": "#FFD000",
+          "nome_cor": "AMARELO",
+          "id": "c"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "VERMELHO",
+          "imagem": null,
+          "cor": "#E53935",
+          "nome_cor": "VERMELHO",
+          "id": "d"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "M-CO-02",
+      "nivel": "Médio",
+      "atividade": "Cores",
+      "ordem": 2,
+      "area": "Cores",
+      "habilidade": "Encontrar um objeto de uma cor",
+      "bncc": "EI03ET05",
+      "enunciado": "Qual destas coisas é VERMELHA?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Qual destas coisas é VERMELHA?",
+        "arquivo": "assets/audio/perguntas/M-CO-02.mp3",
+        "dica": "assets/audio/perguntas/M-CO-02-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-CO-02-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Pense em uma fruta vermelha e redondinha.",
+      "explicacao": "A maçã é vermelha.",
+      "alternativas": [
+        {
+          "tipo": "imagem",
+          "rotulo": "MAÇÃ",
+          "imagem": "assets/img/maca.svg",
+          "id": "a"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "BANANA",
+          "imagem": "assets/img/banana.svg",
+          "id": "b"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "UVA",
+          "imagem": "assets/img/uva.svg",
+          "id": "c"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "SAPO",
+          "imagem": "assets/img/sapo.svg",
+          "id": "d"
+        }
+      ],
+      "resposta_correta": "a"
+    },
+    {
+      "id": "M-CO-03",
+      "nivel": "Médio",
+      "atividade": "Cores",
+      "ordem": 3,
+      "area": "Cores",
+      "habilidade": "Pintar dois desenhos seguindo duas instruções",
+      "bncc": "EI03TS02",
+      "enunciado": "Pinte o sapo de VERDE e o sol de AMARELO.",
+      "tipo": "pintar",
+      "audio": {
+        "fala": "Pinte o sapo de VERDE | e o sol de AMARELO. | Primeiro toque na tinta, depois no desenho.",
+        "arquivo": "assets/audio/perguntas/M-CO-03.mp3",
+        "dica": "assets/audio/perguntas/M-CO-03-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-CO-03-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Toque na tinta verde e depois no sapo. Depois, faça o mesmo com o sol.",
+      "explicacao": "O sapo ficou verde e o sol ficou amarelo!",
+      "objetos": [
+        {
+          "id": "a",
+          "desenho": "sapo",
+          "imagem": "assets/img/pintar/sapo.svg",
+          "cor": "#2E9D3A",
+          "nome_cor": "VERDE"
+        },
+        {
+          "id": "b",
+          "desenho": "sol",
+          "imagem": "assets/img/pintar/sol.svg",
+          "cor": "#FFD000",
+          "nome_cor": "AMARELO"
+        }
+      ],
+      "paleta": [
+        {
+          "nome": "VERDE",
+          "cor": "#2E9D3A"
+        },
+        {
+          "nome": "AMARELO",
+          "cor": "#FFD000"
+        },
+        {
+          "nome": "AZUL",
+          "cor": "#1E63D6"
+        }
+      ],
+      "resposta_correta": {
+        "a": "VERDE",
+        "b": "AMARELO"
+      }
+    },
+    {
+      "id": "M-CO-04",
+      "nivel": "Médio",
+      "atividade": "Cores",
+      "ordem": 4,
+      "area": "Cores",
+      "habilidade": "Completar um padrão de cores ABB",
+      "bncc": "EI03CO01",
+      "enunciado": "Que cor vem depois?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Vermelho, amarelo, amarelo, | vermelho, amarelo… | Que cor vem depois?",
+        "arquivo": "assets/audio/perguntas/M-CO-04.mp3",
+        "dica": "assets/audio/perguntas/M-CO-04-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-CO-04-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "sequencia",
+        "itens": [
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#E53935"
+          },
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#FFD000"
+          },
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#FFD000"
+          },
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#E53935"
+          },
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#FFD000"
+          },
+          {
+            "tipo": "lacuna"
+          }
+        ]
+      },
+      "dica": "Repare: depois de cada vermelho vêm dois amarelos.",
+      "explicacao": "Vermelho, amarelo, amarelo: depois vem AMARELO.",
+      "alternativas": [
+        {
+          "tipo": "cor",
+          "rotulo": "VERMELHO",
+          "imagem": null,
+          "cor": "#E53935",
+          "nome_cor": "VERMELHO",
+          "id": "a"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "AMARELO",
+          "imagem": null,
+          "cor": "#FFD000",
+          "nome_cor": "AMARELO",
+          "id": "b"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "AZUL",
+          "imagem": null,
+          "cor": "#1E63D6",
+          "nome_cor": "AZUL",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "M-CO-05",
+      "nivel": "Médio",
+      "atividade": "Cores",
+      "ordem": 5,
+      "area": "Cores",
+      "habilidade": "Classificar pela cor",
+      "bncc": "EI03ET05",
+      "enunciado": "Qual grupo tem SÓ bolas azuis?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Qual grupo tem SÓ bolas AZUIS?",
+        "arquivo": "assets/audio/perguntas/M-CO-05.mp3",
+        "dica": "assets/audio/perguntas/M-CO-05-dica.mp3",
+        "explicacao": "assets/audio/perguntas/M-CO-05-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Olhe cada grupo com calma: todas as bolas precisam ser azuis.",
+      "explicacao": "Neste grupo, todas as bolas são azuis.",
+      "alternativas": [
+        {
+          "tipo": "grupo",
+          "rotulo": "BOLAS AZUIS E VERMELHAS",
+          "imagem": "assets/img/pintar/bola.svg",
+          "itens": [
+            {
+              "desenho": "bola",
+              "cor": "#1E63D6",
+              "quantidade": 1
+            },
+            {
+              "desenho": "bola",
+              "cor": "#E53935",
+              "quantidade": 1
+            },
+            {
+              "desenho": "bola",
+              "cor": "#1E63D6",
+              "quantidade": 1
+            }
+          ],
+          "id": "a"
+        },
+        {
+          "tipo": "grupo",
+          "rotulo": "SÓ BOLAS AZUIS",
+          "imagem": "assets/img/pintar/bola.svg",
+          "itens": [
+            {
+              "desenho": "bola",
+              "cor": "#1E63D6",
+              "quantidade": 1
+            },
+            {
+              "desenho": "bola",
+              "cor": "#1E63D6",
+              "quantidade": 1
+            },
+            {
+              "desenho": "bola",
+              "cor": "#1E63D6",
+              "quantidade": 1
+            }
+          ],
+          "id": "b"
+        },
+        {
+          "tipo": "grupo",
+          "rotulo": "BOLAS AZUIS E AMARELAS",
+          "imagem": "assets/img/pintar/bola.svg",
+          "itens": [
+            {
+              "desenho": "bola",
+              "cor": "#FFD000",
+              "quantidade": 1
+            },
+            {
+              "desenho": "bola",
+              "cor": "#1E63D6",
+              "quantidade": 1
+            },
+            {
+              "desenho": "bola",
+              "cor": "#1E63D6",
+              "quantidade": 1
+            }
+          ],
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "D-SS-01",
+      "nivel": "Difícil",
+      "atividade": "Sons e Sílabas",
+      "ordem": 1,
+      "area": "Consciência Fonológica",
+      "habilidade": "Identificar o mesmo som inicial",
+      "bncc": "EI03EF02",
+      "enunciado": "Qual começa igual a PATO?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Escute: PATO. | Qual figura começa com o mesmo som de PATO?",
+        "arquivo": "assets/audio/perguntas/D-SS-01.mp3",
+        "dica": "assets/audio/perguntas/D-SS-01-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-SS-01-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Fale devagar: PA, TO. Procure outra figura que comece com o mesmo som.",
+      "explicacao": "PATO e PEIXE começam com o mesmo som.",
+      "alternativas": [
+        {
+          "tipo": "imagem",
+          "rotulo": "GATO",
+          "imagem": "assets/img/gato.svg",
+          "id": "a"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "PEIXE",
+          "imagem": "assets/img/peixe.svg",
+          "id": "b"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "BOLA",
+          "imagem": "assets/img/bola.svg",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "D-SS-02",
+      "nivel": "Difícil",
+      "atividade": "Sons e Sílabas",
+      "ordem": 2,
+      "area": "Consciência Silábica",
+      "habilidade": "Contar as sílabas de uma palavra de quatro sílabas",
+      "bncc": "EI03EF02",
+      "enunciado": "Quantas partes tem BORBOLETA?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Bata palmas comigo: | BOR | BO | LE | TA. | Quantas partes tem a palavra BORBOLETA?",
+        "arquivo": "assets/audio/perguntas/D-SS-02.mp3",
+        "dica": "assets/audio/perguntas/D-SS-02-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-SS-02-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "imagem",
+        "imagem": "assets/img/borboleta.svg"
+      },
+      "dica": "Toque nas mãozinhas para cada parte: BOR, BO, LE, TA.",
+      "explicacao": "BOR, BO, LE, TA: quatro palmas, quatro partes.",
+      "silabas": [
+        "BOR",
+        "BO",
+        "LE",
+        "TA"
+      ],
+      "silabas_audio": [
+        "assets/audio/perguntas/D-SS-02-silaba-1.mp3",
+        "assets/audio/perguntas/D-SS-02-silaba-2.mp3",
+        "assets/audio/perguntas/D-SS-02-silaba-3.mp3",
+        "assets/audio/perguntas/D-SS-02-silaba-4.mp3"
+      ],
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "2",
+          "imagem": null,
+          "valor": 2,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "3",
+          "imagem": null,
+          "valor": 3,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "4",
+          "imagem": null,
+          "valor": 4,
+          "id": "c"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "5",
+          "imagem": null,
+          "valor": 5,
+          "id": "d"
+        }
+      ],
+      "resposta_correta": "c"
+    },
+    {
+      "id": "D-SS-03",
+      "nivel": "Difícil",
+      "atividade": "Sons e Sílabas",
+      "ordem": 3,
+      "area": "Letras e Palavras",
+      "habilidade": "Contar as letras de uma palavra",
+      "bncc": "EI03EF09",
+      "enunciado": "Quantas letras tem SAPO?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Esta é a palavra SAPO. | Toque em cada letra para contar. | Quantas letras ela tem?",
+        "arquivo": "assets/audio/perguntas/D-SS-03.mp3",
+        "dica": "assets/audio/perguntas/D-SS-03-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-SS-03-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "palavra",
+        "texto": "SAPO"
+      },
+      "dica": "Toque em cada letra uma vez só e conte.",
+      "explicacao": "S, A, P, O: SAPO tem quatro letras.",
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "3",
+          "imagem": null,
+          "valor": 3,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "4",
+          "imagem": null,
+          "valor": 4,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "5",
+          "imagem": null,
+          "valor": 5,
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "D-SS-04",
+      "nivel": "Difícil",
+      "atividade": "Sons e Sílabas",
+      "ordem": 4,
+      "area": "Letras e Palavras",
+      "habilidade": "Montar uma palavra com letras, com distrator",
+      "bncc": "EI03EF09",
+      "enunciado": "Monte a palavra GATO.",
+      "tipo": "montar",
+      "audio": {
+        "fala": "Vamos escrever GATO! | Uma letra vai sobrar.",
+        "arquivo": "assets/audio/perguntas/D-SS-04.mp3",
+        "dica": "assets/audio/perguntas/D-SS-04-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-SS-04-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "imagem",
+        "imagem": "assets/img/gato.svg"
+      },
+      "dica": "Toque nas letras para ouvir. GATO começa com a letra G.",
+      "explicacao": "G, A, T, O: GATO! A letra P sobrou.",
+      "pecas": [
+        "G",
+        "A",
+        "T",
+        "O",
+        "P"
+      ],
+      "pecas_audio": [
+        "assets/audio/letras/g.mp3",
+        "assets/audio/letras/a.mp3",
+        "assets/audio/letras/t.mp3",
+        "assets/audio/letras/o.mp3",
+        "assets/audio/letras/p.mp3"
+      ],
+      "resposta_correta": [
+        "G",
+        "A",
+        "T",
+        "O"
+      ]
+    },
+    {
+      "id": "D-SS-05",
+      "nivel": "Difícil",
+      "atividade": "Sons e Sílabas",
+      "ordem": 5,
+      "area": "Compreensão Auditiva",
+      "habilidade": "Compreender a ordem dos fatos em uma frase",
+      "bncc": "EI03EF01",
+      "enunciado": "O que Lia comeu PRIMEIRO?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Escute: | Lia comeu uma banana. | Depois, comeu uma maçã. | O que Lia comeu PRIMEIRO?",
+        "arquivo": "assets/audio/perguntas/D-SS-05.mp3",
+        "dica": "assets/audio/perguntas/D-SS-05-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-SS-05-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Escute de novo. A palavra DEPOIS mostra o que veio em segundo lugar.",
+      "explicacao": "Primeiro a banana, depois a maçã.",
+      "alternativas": [
+        {
+          "tipo": "imagem",
+          "rotulo": "MAÇÃ",
+          "imagem": "assets/img/maca.svg",
+          "id": "a"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "UVA",
+          "imagem": "assets/img/uva.svg",
+          "id": "b"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "BANANA",
+          "imagem": "assets/img/banana.svg",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "c"
+    },
+    {
+      "id": "D-ES-01",
+      "nivel": "Difícil",
+      "atividade": "Noções de Espaço",
+      "ordem": 1,
+      "area": "Noções Espaciais",
+      "habilidade": "Diferenciar em cima, embaixo, esquerda e direita",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Coloque o pássaro EMBAIXO da árvore.",
+      "tipo": "colocar",
+      "audio": {
+        "fala": "Toque no lugar onde o pássaro deve ficar: | EMBAIXO da árvore.",
+        "arquivo": "assets/audio/perguntas/D-ES-01.mp3",
+        "dica": "assets/audio/perguntas/D-ES-01-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-ES-01-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Embaixo da árvore é perto do tronco, no chão.",
+      "explicacao": "O pássaro está embaixo da árvore.",
+      "cenario": {
+        "base": [
+          {
+            "imagem": "assets/img/arvore.svg",
+            "x": 30,
+            "y": 56.4,
+            "largura": 40,
+            "z": 2
+          }
+        ],
+        "item": "assets/img/passaro.svg",
+        "zonas": [
+          {
+            "id": "em cima",
+            "x": 50,
+            "y": 40,
+            "camadas": [
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 30,
+                "y": 56.4,
+                "largura": 40,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/passaro.svg",
+                "x": 39,
+                "y": 38,
+                "largura": 22,
+                "z": 3
+              }
+            ]
+          },
+          {
+            "id": "embaixo",
+            "x": 50,
+            "y": 84,
+            "camadas": [
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 30,
+                "y": 56.4,
+                "largura": 40,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/passaro.svg",
+                "x": 40,
+                "y": 75,
+                "largura": 20,
+                "z": 3
+              }
+            ]
+          },
+          {
+            "id": "esquerda",
+            "x": 12,
+            "y": 84,
+            "camadas": [
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 30,
+                "y": 56.4,
+                "largura": 40,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/passaro.svg",
+                "x": 2,
+                "y": 75,
+                "largura": 20,
+                "z": 3
+              }
+            ]
+          },
+          {
+            "id": "direita",
+            "x": 88,
+            "y": 84,
+            "camadas": [
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 30,
+                "y": 56.4,
+                "largura": 40,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/passaro.svg",
+                "x": 78,
+                "y": 75,
+                "largura": 20,
+                "z": 3
+              }
+            ]
+          }
+        ],
+        "resposta": "embaixo"
+      },
+      "resposta_correta": "embaixo"
+    },
+    {
+      "id": "D-ES-02",
+      "nivel": "Difícil",
+      "atividade": "Noções de Espaço",
+      "ordem": 2,
+      "area": "Noções Espaciais",
+      "habilidade": "Reconhecer o lado direito",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Coloque a bola à DIREITA da árvore.",
+      "tipo": "colocar",
+      "audio": {
+        "fala": "Toque no lugar onde a bola deve ficar: | do lado DIREITO da árvore.",
+        "arquivo": "assets/audio/perguntas/D-ES-02.mp3",
+        "dica": "assets/audio/perguntas/D-ES-02-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-ES-02-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "A direita é o lado do botão azul do alto-falante, lá em cima.",
+      "explicacao": "A bola está do lado direito da árvore.",
+      "cenario": {
+        "base": [
+          {
+            "imagem": "assets/img/arvore.svg",
+            "x": 30,
+            "y": 56.4,
+            "largura": 40,
+            "z": 2
+          }
+        ],
+        "item": "assets/img/bola.svg",
+        "zonas": [
+          {
+            "id": "em cima",
+            "x": 50,
+            "y": 40,
+            "camadas": [
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 30,
+                "y": 56.4,
+                "largura": 40,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/bola.svg",
+                "x": 39,
+                "y": 38,
+                "largura": 22,
+                "z": 3
+              }
+            ]
+          },
+          {
+            "id": "embaixo",
+            "x": 50,
+            "y": 84,
+            "camadas": [
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 30,
+                "y": 56.4,
+                "largura": 40,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/bola.svg",
+                "x": 40,
+                "y": 75,
+                "largura": 20,
+                "z": 3
+              }
+            ]
+          },
+          {
+            "id": "esquerda",
+            "x": 12,
+            "y": 84,
+            "camadas": [
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 30,
+                "y": 56.4,
+                "largura": 40,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/bola.svg",
+                "x": 2,
+                "y": 75,
+                "largura": 20,
+                "z": 3
+              }
+            ]
+          },
+          {
+            "id": "direita",
+            "x": 88,
+            "y": 84,
+            "camadas": [
+              {
+                "imagem": "assets/img/arvore.svg",
+                "x": 30,
+                "y": 56.4,
+                "largura": 40,
+                "z": 2
+              },
+              {
+                "imagem": "assets/img/bola.svg",
+                "x": 78,
+                "y": 75,
+                "largura": 20,
+                "z": 3
+              }
+            ]
+          }
+        ],
+        "resposta": "direita"
+      },
+      "resposta_correta": "direita"
+    },
+    {
+      "id": "D-ES-03",
+      "nivel": "Difícil",
+      "atividade": "Noções de Espaço",
+      "ordem": 3,
+      "area": "Noções Espaciais",
+      "habilidade": "Reconhecer o lado esquerdo",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "A bola à ESQUERDA do cachorro.",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Toque na figura em que a bola está do lado ESQUERDO do cachorro.",
+        "arquivo": "assets/audio/perguntas/D-ES-03.mp3",
+        "dica": "assets/audio/perguntas/D-ES-03-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-ES-03-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "A esquerda é o lado do botão da casinha, lá em cima.",
+      "explicacao": "Aqui a bola está do lado esquerdo do cachorro.",
+      "alternativas": [
+        {
+          "tipo": "composicao",
+          "rotulo": "BOLA À DIREITA",
+          "imagem": "assets/img/cachorro.svg",
+          "camadas": [
+            {
+              "imagem": "assets/img/cachorro.svg",
+              "x": 27.0,
+              "y": 50.8,
+              "largura": 46,
+              "z": 1
+            },
+            {
+              "imagem": "assets/img/bola.svg",
+              "x": 76,
+              "y": 71.4,
+              "largura": 24,
+              "z": 2
+            }
+          ],
+          "id": "a"
+        },
+        {
+          "tipo": "composicao",
+          "rotulo": "BOLA EM CIMA",
+          "imagem": "assets/img/cachorro.svg",
+          "camadas": [
+            {
+              "imagem": "assets/img/cachorro.svg",
+              "x": 27.0,
+              "y": 50.8,
+              "largura": 46,
+              "z": 1
+            },
+            {
+              "imagem": "assets/img/bola.svg",
+              "x": 39.0,
+              "y": 36.8,
+              "largura": 22,
+              "z": 2
+            }
+          ],
+          "id": "b"
+        },
+        {
+          "tipo": "composicao",
+          "rotulo": "BOLA À ESQUERDA",
+          "imagem": "assets/img/cachorro.svg",
+          "camadas": [
+            {
+              "imagem": "assets/img/cachorro.svg",
+              "x": 27.0,
+              "y": 50.8,
+              "largura": 46,
+              "z": 1
+            },
+            {
+              "imagem": "assets/img/bola.svg",
+              "x": 0,
+              "y": 71.4,
+              "largura": 24,
+              "z": 2
+            }
+          ],
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "c"
+    },
+    {
+      "id": "D-ES-04",
+      "nivel": "Difícil",
+      "atividade": "Noções de Espaço",
+      "ordem": 4,
+      "area": "Noções Espaciais",
+      "habilidade": "Programar um caminho com desvios",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Leve o robô até o cristal.",
+      "tipo": "rota",
+      "audio": {
+        "fala": "Leve o robô até o cristal, | desviando dos buracos.",
+        "arquivo": "assets/audio/perguntas/D-ES-04.mp3",
+        "dica": "assets/audio/perguntas/D-ES-04-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-ES-04-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Procure um caminho livre antes de começar. Siga com o dedo na tela.",
+      "explicacao": "Uma solução: três vezes para cima e depois três vezes para o lado.",
+      "grade": {
+        "colunas": 4,
+        "linhas": 4,
+        "inicio": [
+          0,
+          0
+        ],
+        "alvo": [
+          3,
+          3
+        ],
+        "obstaculos": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "max": 7
+      },
+      "resposta_correta": "qualquer caminho até o cristal (o menor tem 6 passos)"
+    },
+    {
+      "id": "D-ES-05",
+      "nivel": "Difícil",
+      "atividade": "Noções de Espaço",
+      "ordem": 5,
+      "area": "Noções Espaciais",
+      "habilidade": "Programar um caminho com várias curvas",
+      "bncc": "EI02ET04 (consolidação)",
+      "enunciado": "Leve o robô até o cristal.",
+      "tipo": "rota",
+      "audio": {
+        "fala": "Agora o caminho tem curvas! | Leve o robô até o cristal.",
+        "arquivo": "assets/audio/perguntas/D-ES-05.mp3",
+        "dica": "assets/audio/perguntas/D-ES-05-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-ES-05-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Comece descendo. Depois procure o caminho livre até o cristal.",
+      "explicacao": "Uma solução: duas vezes para baixo, três vezes para o lado e mais uma para baixo.",
+      "grade": {
+        "colunas": 4,
+        "linhas": 4,
+        "inicio": [
+          0,
+          3
+        ],
+        "alvo": [
+          3,
+          0
+        ],
+        "obstaculos": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "max": 8
+      },
+      "resposta_correta": "qualquer caminho até o cristal (o menor tem 6 passos)"
+    },
+    {
+      "id": "D-MA-01",
+      "nivel": "Difícil",
+      "atividade": "Matemática Simples",
+      "ordem": 1,
+      "area": "Contagem e Quantidades",
+      "habilidade": "Contar só os elementos de um tipo",
+      "bncc": "EI03ET05",
+      "enunciado": "Quantas NAVES?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Tem naves e estrelas. | Conte só as NAVES.",
+        "arquivo": "assets/audio/perguntas/D-MA-01.mp3",
+        "dica": "assets/audio/perguntas/D-MA-01-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-MA-01-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "grupo",
+        "itens": [
+          {
+            "imagem": "assets/img/nave.svg",
+            "quantidade": 1
+          },
+          {
+            "imagem": "assets/img/estrela.svg",
+            "quantidade": 2
+          },
+          {
+            "imagem": "assets/img/nave.svg",
+            "quantidade": 1
+          },
+          {
+            "imagem": "assets/img/estrela.svg",
+            "quantidade": 2
+          },
+          {
+            "imagem": "assets/img/nave.svg",
+            "quantidade": 1
+          }
+        ]
+      },
+      "dica": "Toque só nas naves. As estrelas ficam de fora.",
+      "explicacao": "São três naves. As estrelas não entram na conta.",
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "3",
+          "imagem": null,
+          "valor": 3,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "4",
+          "imagem": null,
+          "valor": 4,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "7",
+          "imagem": null,
+          "valor": 7,
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "a"
+    },
+    {
+      "id": "D-MA-02",
+      "nivel": "Difícil",
+      "atividade": "Matemática Simples",
+      "ordem": 2,
+      "area": "Contagem e Quantidades",
+      "habilidade": "Retirar quantidades",
+      "bncc": "EI03ET07",
+      "enunciado": "Cinco naves. Duas foram embora.",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Tinha cinco naves. | Duas foram embora. | Quantas ficaram?",
+        "arquivo": "assets/audio/perguntas/D-MA-02.mp3",
+        "dica": "assets/audio/perguntas/D-MA-02-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-MA-02-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "operacao",
+        "partes": [
+          {
+            "imagem": "assets/img/nave.svg",
+            "quantidade": 5
+          },
+          "−",
+          {
+            "imagem": "assets/img/nave.svg",
+            "quantidade": 2
+          }
+        ]
+      },
+      "dica": "As naves clarinhas foram embora. Conte só as que ficaram.",
+      "explicacao": "Cinco naves, duas foram embora: ficaram três.",
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "2",
+          "imagem": null,
+          "valor": 2,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "3",
+          "imagem": null,
+          "valor": 3,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "5",
+          "imagem": null,
+          "valor": 5,
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "D-MA-03",
+      "nivel": "Difícil",
+      "atividade": "Matemática Simples",
+      "ordem": 3,
+      "area": "Contagem e Quantidades",
+      "habilidade": "Reconhecer a mesma quantidade",
+      "bncc": "EI03ET07",
+      "enunciado": "Onde tem a MESMA quantidade?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Aqui tem algumas estrelas. | Onde tem a MESMA quantidade de cristais?",
+        "arquivo": "assets/audio/perguntas/D-MA-03.mp3",
+        "dica": "assets/audio/perguntas/D-MA-03-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-MA-03-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "grupo",
+        "itens": [
+          {
+            "imagem": "assets/img/estrela.svg",
+            "quantidade": 4
+          }
+        ]
+      },
+      "dica": "Conte as estrelas. Depois procure um grupo com o mesmo número de cristais.",
+      "explicacao": "Quatro estrelas e quatro cristais: a mesma quantidade.",
+      "alternativas": [
+        {
+          "tipo": "grupo",
+          "rotulo": "TRÊS CRISTAIS",
+          "imagem": "assets/img/cristal.svg",
+          "itens": [
+            {
+              "imagem": "assets/img/cristal.svg",
+              "quantidade": 3
+            }
+          ],
+          "id": "a"
+        },
+        {
+          "tipo": "grupo",
+          "rotulo": "QUATRO CRISTAIS",
+          "imagem": "assets/img/cristal.svg",
+          "itens": [
+            {
+              "imagem": "assets/img/cristal.svg",
+              "quantidade": 4
+            }
+          ],
+          "id": "b"
+        },
+        {
+          "tipo": "grupo",
+          "rotulo": "CINCO CRISTAIS",
+          "imagem": "assets/img/cristal.svg",
+          "itens": [
+            {
+              "imagem": "assets/img/cristal.svg",
+              "quantidade": 5
+            }
+          ],
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "D-MA-04",
+      "nivel": "Difícil",
+      "atividade": "Matemática Simples",
+      "ordem": 4,
+      "area": "Grandezas e Comparações",
+      "habilidade": "Ordenar grupos pela quantidade",
+      "bncc": "EI03ET05",
+      "enunciado": "Do que tem MENOS para o que tem MAIS.",
+      "tipo": "ordenar",
+      "audio": {
+        "fala": "Toque nos grupos do que tem MENOS cristais para o que tem MAIS.",
+        "arquivo": "assets/audio/perguntas/D-MA-04.mp3",
+        "dica": "assets/audio/perguntas/D-MA-04-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-MA-04-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "Conte cada grupo. Comece pelo grupo com menos cristais.",
+      "explicacao": "Dois, quatro, seis: de menos para mais.",
+      "alternativas": [
+        {
+          "tipo": "grupo",
+          "rotulo": "QUATRO CRISTAIS",
+          "imagem": "assets/img/cristal.svg",
+          "itens": [
+            {
+              "imagem": "assets/img/cristal.svg",
+              "quantidade": 4
+            }
+          ],
+          "id": "a"
+        },
+        {
+          "tipo": "grupo",
+          "rotulo": "SEIS CRISTAIS",
+          "imagem": "assets/img/cristal.svg",
+          "itens": [
+            {
+              "imagem": "assets/img/cristal.svg",
+              "quantidade": 6
+            }
+          ],
+          "id": "b"
+        },
+        {
+          "tipo": "grupo",
+          "rotulo": "DOIS CRISTAIS",
+          "imagem": "assets/img/cristal.svg",
+          "itens": [
+            {
+              "imagem": "assets/img/cristal.svg",
+              "quantidade": 2
+            }
+          ],
+          "id": "c"
+        }
+      ],
+      "resposta_correta": [
+        "c",
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "D-MA-05",
+      "nivel": "Difícil",
+      "atividade": "Matemática Simples",
+      "ordem": 5,
+      "area": "Grandezas e Comparações",
+      "habilidade": "Ler um gráfico de figuras",
+      "bncc": "EI03ET08",
+      "enunciado": "Qual fruta ganhou?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Os astronautas votaram na fruta para levar na nave. | Qual fruta ganhou MAIS votos?",
+        "arquivo": "assets/audio/perguntas/D-MA-05.mp3",
+        "dica": "assets/audio/perguntas/D-MA-05-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-MA-05-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "pictograma",
+        "titulo": "Fruta preferida",
+        "colunas": [
+          {
+            "imagem": "assets/img/maca.svg",
+            "quantidade": 3
+          },
+          {
+            "imagem": "assets/img/banana.svg",
+            "quantidade": 5
+          },
+          {
+            "imagem": "assets/img/uva.svg",
+            "quantidade": 4
+          }
+        ]
+      },
+      "dica": "Olhe qual coluna de estrelas é a mais alta.",
+      "explicacao": "A banana tem a coluna mais alta: cinco votos.",
+      "alternativas": [
+        {
+          "tipo": "imagem",
+          "rotulo": "MAÇÃ",
+          "imagem": "assets/img/maca.svg",
+          "id": "a"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "BANANA",
+          "imagem": "assets/img/banana.svg",
+          "id": "b"
+        },
+        {
+          "tipo": "imagem",
+          "rotulo": "UVA",
+          "imagem": "assets/img/uva.svg",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "D-CO-01",
+      "nivel": "Difícil",
+      "atividade": "Cores",
+      "ordem": 1,
+      "area": "Cores",
+      "habilidade": "Prever a mistura de duas cores",
+      "bncc": "EI03ET02",
+      "enunciado": "Azul com amarelo dá…",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Se a gente misturar tinta AZUL com tinta AMARELA, | que cor aparece?",
+        "arquivo": "assets/audio/perguntas/D-CO-01.mp3",
+        "dica": "assets/audio/perguntas/D-CO-01-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-CO-01-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "mistura",
+        "cores": [
+          "#1E63D6",
+          "#FFD000"
+        ]
+      },
+      "dica": "Pense na cor das folhas das árvores.",
+      "explicacao": "Azul misturado com amarelo dá verde.",
+      "alternativas": [
+        {
+          "tipo": "cor",
+          "rotulo": "VERDE",
+          "imagem": null,
+          "cor": "#2E9D3A",
+          "nome_cor": "VERDE",
+          "id": "a"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "ROXO",
+          "imagem": null,
+          "cor": "#7B3FB5",
+          "nome_cor": "ROXO",
+          "id": "b"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "LARANJA",
+          "imagem": null,
+          "cor": "#F57C00",
+          "nome_cor": "LARANJA",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "a"
+    },
+    {
+      "id": "D-CO-02",
+      "nivel": "Difícil",
+      "atividade": "Cores",
+      "ordem": 2,
+      "area": "Cores",
+      "habilidade": "Pintar frutas com as cores delas",
+      "bncc": "EI03TS02",
+      "enunciado": "Pinte cada fruta com a cor dela.",
+      "tipo": "pintar",
+      "audio": {
+        "fala": "Pinte cada fruta com a cor dela. | Primeiro toque na tinta, depois na fruta.",
+        "arquivo": "assets/audio/perguntas/D-CO-02.mp3",
+        "dica": "assets/audio/perguntas/D-CO-02-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-CO-02-explicacao.mp3"
+      },
+      "video": null,
+      "cena": null,
+      "dica": "A banana é amarela e a maçã é vermelha. E a uva?",
+      "explicacao": "Banana amarela, maçã vermelha e uva roxa!",
+      "objetos": [
+        {
+          "id": "a",
+          "desenho": "banana",
+          "imagem": "assets/img/pintar/banana.svg",
+          "cor": "#FFD000",
+          "nome_cor": "AMARELO"
+        },
+        {
+          "id": "b",
+          "desenho": "maca",
+          "imagem": "assets/img/pintar/maca.svg",
+          "cor": "#E53935",
+          "nome_cor": "VERMELHO"
+        },
+        {
+          "id": "c",
+          "desenho": "uva",
+          "imagem": "assets/img/pintar/uva.svg",
+          "cor": "#7B3FB5",
+          "nome_cor": "ROXO"
+        }
+      ],
+      "paleta": [
+        {
+          "nome": "AMARELO",
+          "cor": "#FFD000"
+        },
+        {
+          "nome": "VERMELHO",
+          "cor": "#E53935"
+        },
+        {
+          "nome": "ROXO",
+          "cor": "#7B3FB5"
+        },
+        {
+          "nome": "AZUL",
+          "cor": "#1E63D6"
+        }
+      ],
+      "resposta_correta": {
+        "a": "AMARELO",
+        "b": "VERMELHO",
+        "c": "ROXO"
+      }
+    },
+    {
+      "id": "D-CO-03",
+      "nivel": "Difícil",
+      "atividade": "Cores",
+      "ordem": 3,
+      "area": "Cores",
+      "habilidade": "Identificar a cor que falta numa sequência conhecida",
+      "bncc": "EI03ET05",
+      "enunciado": "Qual cor falta no arco-íris?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Uma cor sumiu do arco-íris! | Qual cor está faltando?",
+        "arquivo": "assets/audio/perguntas/D-CO-03.mp3",
+        "dica": "assets/audio/perguntas/D-CO-03-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-CO-03-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "arco-iris",
+        "cores": [
+          "#E53935",
+          "#F57C00",
+          "#FFD000",
+          "#2E9D3A",
+          "#1E63D6",
+          "#7B3FB5"
+        ],
+        "falta": 3
+      },
+      "dica": "Olhe as cores vizinhas: depois do amarelo e antes do azul.",
+      "explicacao": "Falta o verde: vermelho, laranja, amarelo, verde, azul e roxo.",
+      "alternativas": [
+        {
+          "tipo": "cor",
+          "rotulo": "ROSA",
+          "imagem": null,
+          "cor": "#F27BB0",
+          "nome_cor": "ROSA",
+          "id": "a"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "VERDE",
+          "imagem": null,
+          "cor": "#2E9D3A",
+          "nome_cor": "VERDE",
+          "id": "b"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "MARROM",
+          "imagem": null,
+          "cor": "#7A4A1E",
+          "nome_cor": "MARROM",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    },
+    {
+      "id": "D-CO-04",
+      "nivel": "Difícil",
+      "atividade": "Cores",
+      "ordem": 4,
+      "area": "Cores",
+      "habilidade": "Completar um padrão de cores ABC",
+      "bncc": "EI03CO01",
+      "enunciado": "Que cor vem depois?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Vermelho, amarelo, azul, | vermelho, amarelo… | Que cor vem depois?",
+        "arquivo": "assets/audio/perguntas/D-CO-04.mp3",
+        "dica": "assets/audio/perguntas/D-CO-04-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-CO-04-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "sequencia",
+        "itens": [
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#E53935"
+          },
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#FFD000"
+          },
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#1E63D6"
+          },
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#E53935"
+          },
+          {
+            "tipo": "pintada",
+            "desenho": "bola",
+            "cor": "#FFD000"
+          },
+          {
+            "tipo": "lacuna"
+          }
+        ]
+      },
+      "dica": "São três cores que se repetem sempre na mesma ordem.",
+      "explicacao": "Vermelho, amarelo, AZUL: o padrão recomeça.",
+      "alternativas": [
+        {
+          "tipo": "cor",
+          "rotulo": "VERMELHO",
+          "imagem": null,
+          "cor": "#E53935",
+          "nome_cor": "VERMELHO",
+          "id": "a"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "AMARELO",
+          "imagem": null,
+          "cor": "#FFD000",
+          "nome_cor": "AMARELO",
+          "id": "b"
+        },
+        {
+          "tipo": "cor",
+          "rotulo": "AZUL",
+          "imagem": null,
+          "cor": "#1E63D6",
+          "nome_cor": "AZUL",
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "c"
+    },
+    {
+      "id": "D-CO-05",
+      "nivel": "Difícil",
+      "atividade": "Cores",
+      "ordem": 5,
+      "area": "Cores",
+      "habilidade": "Contar só os elementos de uma cor",
+      "bncc": "EI03ET05",
+      "enunciado": "Quantas estrelas AMARELAS?",
+      "tipo": "escolha",
+      "audio": {
+        "fala": "Conte só as estrelas AMARELAS. | Quantas são?",
+        "arquivo": "assets/audio/perguntas/D-CO-05.mp3",
+        "dica": "assets/audio/perguntas/D-CO-05-dica.mp3",
+        "explicacao": "assets/audio/perguntas/D-CO-05-explicacao.mp3"
+      },
+      "video": null,
+      "cena": {
+        "tipo": "grupo",
+        "itens": [
+          {
+            "desenho": "estrela",
+            "cor": "#FFD000",
+            "quantidade": 1
+          },
+          {
+            "desenho": "estrela",
+            "cor": "#1E63D6",
+            "quantidade": 1
+          },
+          {
+            "desenho": "estrela",
+            "cor": "#FFD000",
+            "quantidade": 2
+          },
+          {
+            "desenho": "estrela",
+            "cor": "#1E63D6",
+            "quantidade": 2
+          },
+          {
+            "desenho": "estrela",
+            "cor": "#FFD000",
+            "quantidade": 1
+          }
+        ]
+      },
+      "dica": "Toque só nas estrelas amarelas para contar.",
+      "explicacao": "São quatro estrelas amarelas. As azuis ficam de fora.",
+      "alternativas": [
+        {
+          "tipo": "numero",
+          "rotulo": "3",
+          "imagem": null,
+          "valor": 3,
+          "id": "a"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "4",
+          "imagem": null,
+          "valor": 4,
+          "id": "b"
+        },
+        {
+          "tipo": "numero",
+          "rotulo": "7",
+          "imagem": null,
+          "valor": 7,
+          "id": "c"
+        }
+      ],
+      "resposta_correta": "b"
+    }
+  ]
+}

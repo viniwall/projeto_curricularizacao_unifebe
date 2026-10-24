@@ -1,0 +1,441 @@
+{
+  "versao": 1,
+  "descricao": "Falas do Órbi fora das perguntas. \"texto\" é o que ele diz; \"arquivo\" é a gravação; \"pronuncia\" (quando existe) é o texto usado para gerar a voz.",
+  "frases": {
+    "ola": {
+      "texto": "Oi! Eu sou o Órbi, seu robô ajudante.",
+      "arquivo": "assets/audio/falas/ola.mp3"
+    },
+    "qual_nome": {
+      "texto": "Qual é o seu nome?",
+      "arquivo": "assets/audio/falas/qual_nome.mp3"
+    },
+    "peca_adulto": {
+      "texto": "Peça para um adulto ajudar a escrever o seu nome completo.",
+      "arquivo": "assets/audio/falas/peca_adulto.mp3"
+    },
+    "prazer": {
+      "texto": "Muito prazer!",
+      "arquivo": "assets/audio/falas/prazer.mp3"
+    },
+    "escolha_nave": {
+      "texto": "Agora escolha a cor da sua nave.",
+      "arquivo": "assets/audio/falas/escolha_nave.mp3"
+    },
+    "nave_bonita": {
+      "texto": "Que nave bonita!",
+      "arquivo": "assets/audio/falas/nave_bonita.mp3"
+    },
+    "toque_continuar": {
+      "texto": "Toque no botão azul para continuar.",
+      "arquivo": "assets/audio/falas/toque_continuar.mp3"
+    },
+    "escolha_nivel": {
+      "texto": "Escolha o nível: | fácil, | médio | ou difícil.",
+      "arquivo": "assets/audio/falas/escolha_nivel.mp3"
+    },
+    "mapa": {
+      "texto": "Este é o mapa da expedição.",
+      "arquivo": "assets/audio/falas/mapa.mp3"
+    },
+    "escolha_planeta": {
+      "texto": "Escolha um planeta para visitar!",
+      "arquivo": "assets/audio/falas/escolha_planeta.mp3"
+    },
+    "intro_sons": {
+      "texto": "Bem-vindo ao Planeta dos Sons! | Aqui a gente escuta sons, bate palmas e brinca com as letras.",
+      "arquivo": "assets/audio/falas/intro_sons.mp3"
+    },
+    "intro_lugares": {
+      "texto": "Bem-vindo ao Planeta dos Lugares! | Aqui a gente descobre onde as coisas estão: | dentro, fora, em cima e embaixo.",
+      "arquivo": "assets/audio/falas/intro_lugares.mp3"
+    },
+    "intro_numeros": {
+      "texto": "Bem-vindo ao Planeta dos Números! | Aqui a gente conta estrelas, naves e cristais.",
+      "arquivo": "assets/audio/falas/intro_numeros.mp3"
+    },
+    "intro_cores": {
+      "texto": "Oh, não! O Planeta das Cores perdeu as cores! | Vamos ajudar a pintar tudo de novo?",
+      "arquivo": "assets/audio/falas/intro_cores.mp3"
+    },
+    "acerto_1": {
+      "texto": "Muito bem!",
+      "arquivo": "assets/audio/falas/acerto_1.mp3"
+    },
+    "acerto_2": {
+      "texto": "Isso mesmo!",
+      "arquivo": "assets/audio/falas/acerto_2.mp3"
+    },
+    "acerto_3": {
+      "texto": "Você conseguiu!",
+      "arquivo": "assets/audio/falas/acerto_3.mp3"
+    },
+    "acerto_4": {
+      "texto": "Que legal!",
+      "arquivo": "assets/audio/falas/acerto_4.mp3"
+    },
+    "quase": {
+      "texto": "Quase! Tente de novo.",
+      "arquivo": "assets/audio/falas/quase.mp3"
+    },
+    "olha_so": {
+      "texto": "Olha só!",
+      "arquivo": "assets/audio/falas/olha_so.mp3"
+    },
+    "proxima": {
+      "texto": "Vamos para a próxima!",
+      "arquivo": "assets/audio/falas/proxima.mp3"
+    },
+    "lembrete_1": {
+      "texto": "Estou esperando você! | Toque para responder.",
+      "arquivo": "assets/audio/falas/lembrete_1.mp3"
+    },
+    "lembrete_2": {
+      "texto": "Quer ouvir de novo? | Toque no alto-falante.",
+      "arquivo": "assets/audio/falas/lembrete_2.mp3"
+    },
+    "parabens": {
+      "texto": "Parabéns!",
+      "arquivo": "assets/audio/falas/parabens.mp3"
+    },
+    "explorou_sons": {
+      "texto": "Você explorou o Planeta dos Sons!",
+      "arquivo": "assets/audio/falas/explorou_sons.mp3"
+    },
+    "explorou_lugares": {
+      "texto": "Você explorou o Planeta dos Lugares!",
+      "arquivo": "assets/audio/falas/explorou_lugares.mp3"
+    },
+    "explorou_numeros": {
+      "texto": "Você explorou o Planeta dos Números!",
+      "arquivo": "assets/audio/falas/explorou_numeros.mp3"
+    },
+    "explorou_cores": {
+      "texto": "As cores voltaram para o planeta! | Você explorou o Planeta das Cores!",
+      "arquivo": "assets/audio/falas/explorou_cores.mp3"
+    },
+    "premios": {
+      "texto": "Olha quantos prêmios você ganhou!",
+      "arquivo": "assets/audio/falas/premios.mp3"
+    },
+    "explorou_todos": {
+      "texto": "Você explorou todos os planetas!",
+      "arquivo": "assets/audio/falas/explorou_todos.mp3"
+    },
+    "jogar_de_novo": {
+      "texto": "Quer jogar de novo?",
+      "arquivo": "assets/audio/falas/jogar_de_novo.mp3"
+    },
+    "que_bom": {
+      "texto": "Que bom brincar com você!",
+      "arquivo": "assets/audio/falas/que_bom.mp3"
+    },
+    "quer_continuar": {
+      "texto": "Quer continuar?",
+      "arquivo": "assets/audio/falas/quer_continuar.mp3"
+    }
+  },
+  "letras": {
+    "A": {
+      "texto": "A",
+      "pronuncia": "á",
+      "arquivo": "assets/audio/letras/a.mp3"
+    },
+    "B": {
+      "texto": "B",
+      "pronuncia": "bê",
+      "arquivo": "assets/audio/letras/b.mp3"
+    },
+    "C": {
+      "texto": "C",
+      "pronuncia": "cê",
+      "arquivo": "assets/audio/letras/c.mp3"
+    },
+    "D": {
+      "texto": "D",
+      "pronuncia": "dê",
+      "arquivo": "assets/audio/letras/d.mp3"
+    },
+    "E": {
+      "texto": "E",
+      "pronuncia": "é",
+      "arquivo": "assets/audio/letras/e.mp3"
+    },
+    "F": {
+      "texto": "F",
+      "pronuncia": "éfe",
+      "arquivo": "assets/audio/letras/f.mp3"
+    },
+    "G": {
+      "texto": "G",
+      "pronuncia": "gê",
+      "arquivo": "assets/audio/letras/g.mp3"
+    },
+    "H": {
+      "texto": "H",
+      "pronuncia": "agá",
+      "arquivo": "assets/audio/letras/h.mp3"
+    },
+    "I": {
+      "texto": "I",
+      "pronuncia": "í",
+      "arquivo": "assets/audio/letras/i.mp3"
+    },
+    "J": {
+      "texto": "J",
+      "pronuncia": "jóta",
+      "arquivo": "assets/audio/letras/j.mp3"
+    },
+    "K": {
+      "texto": "K",
+      "pronuncia": "cá",
+      "arquivo": "assets/audio/letras/k.mp3"
+    },
+    "L": {
+      "texto": "L",
+      "pronuncia": "éle",
+      "arquivo": "assets/audio/letras/l.mp3"
+    },
+    "M": {
+      "texto": "M",
+      "pronuncia": "ême",
+      "arquivo": "assets/audio/letras/m.mp3"
+    },
+    "N": {
+      "texto": "N",
+      "pronuncia": "êne",
+      "arquivo": "assets/audio/letras/n.mp3"
+    },
+    "O": {
+      "texto": "O",
+      "pronuncia": "ó",
+      "arquivo": "assets/audio/letras/o.mp3"
+    },
+    "P": {
+      "texto": "P",
+      "pronuncia": "pê",
+      "arquivo": "assets/audio/letras/p.mp3"
+    },
+    "Q": {
+      "texto": "Q",
+      "pronuncia": "quê",
+      "arquivo": "assets/audio/letras/q.mp3"
+    },
+    "R": {
+      "texto": "R",
+      "pronuncia": "érre",
+      "arquivo": "assets/audio/letras/r.mp3"
+    },
+    "S": {
+      "texto": "S",
+      "pronuncia": "ésse",
+      "arquivo": "assets/audio/letras/s.mp3"
+    },
+    "T": {
+      "texto": "T",
+      "pronuncia": "tê",
+      "arquivo": "assets/audio/letras/t.mp3"
+    },
+    "U": {
+      "texto": "U",
+      "pronuncia": "ú",
+      "arquivo": "assets/audio/letras/u.mp3"
+    },
+    "V": {
+      "texto": "V",
+      "pronuncia": "vê",
+      "arquivo": "assets/audio/letras/v.mp3"
+    },
+    "W": {
+      "texto": "W",
+      "pronuncia": "dáblio",
+      "arquivo": "assets/audio/letras/w.mp3"
+    },
+    "X": {
+      "texto": "X",
+      "pronuncia": "xis",
+      "arquivo": "assets/audio/letras/x.mp3"
+    },
+    "Y": {
+      "texto": "Y",
+      "pronuncia": "ípsilon",
+      "arquivo": "assets/audio/letras/y.mp3"
+    },
+    "Z": {
+      "texto": "Z",
+      "pronuncia": "zê",
+      "arquivo": "assets/audio/letras/z.mp3"
+    },
+    "Ç": {
+      "texto": "Ç",
+      "pronuncia": "cê cedilha",
+      "arquivo": "assets/audio/letras/c-cedilha.mp3"
+    },
+    "Á": {
+      "texto": "Á",
+      "pronuncia": "á",
+      "arquivo": "assets/audio/letras/a-agudo.mp3"
+    },
+    "É": {
+      "texto": "É",
+      "pronuncia": "é",
+      "arquivo": "assets/audio/letras/e-agudo.mp3"
+    },
+    "Í": {
+      "texto": "Í",
+      "pronuncia": "í",
+      "arquivo": "assets/audio/letras/i-agudo.mp3"
+    },
+    "Ó": {
+      "texto": "Ó",
+      "pronuncia": "ó",
+      "arquivo": "assets/audio/letras/o-agudo.mp3"
+    },
+    "Ú": {
+      "texto": "Ú",
+      "pronuncia": "ú",
+      "arquivo": "assets/audio/letras/u-agudo.mp3"
+    },
+    "Â": {
+      "texto": "Â",
+      "pronuncia": "â",
+      "arquivo": "assets/audio/letras/a-circunflexo.mp3"
+    },
+    "Ê": {
+      "texto": "Ê",
+      "pronuncia": "ê",
+      "arquivo": "assets/audio/letras/e-circunflexo.mp3"
+    },
+    "Ô": {
+      "texto": "Ô",
+      "pronuncia": "ô",
+      "arquivo": "assets/audio/letras/o-circunflexo.mp3"
+    },
+    "Ã": {
+      "texto": "Ã",
+      "pronuncia": "ã",
+      "arquivo": "assets/audio/letras/a-til.mp3"
+    },
+    "Õ": {
+      "texto": "Õ",
+      "pronuncia": "õ",
+      "arquivo": "assets/audio/letras/o-til.mp3"
+    }
+  },
+  "numeros": {
+    "1": {
+      "texto": "um",
+      "arquivo": "assets/audio/numeros/1.mp3"
+    },
+    "2": {
+      "texto": "dois",
+      "arquivo": "assets/audio/numeros/2.mp3"
+    },
+    "3": {
+      "texto": "três",
+      "arquivo": "assets/audio/numeros/3.mp3"
+    },
+    "4": {
+      "texto": "quatro",
+      "arquivo": "assets/audio/numeros/4.mp3"
+    },
+    "5": {
+      "texto": "cinco",
+      "arquivo": "assets/audio/numeros/5.mp3"
+    },
+    "6": {
+      "texto": "seis",
+      "arquivo": "assets/audio/numeros/6.mp3"
+    },
+    "7": {
+      "texto": "sete",
+      "arquivo": "assets/audio/numeros/7.mp3"
+    },
+    "8": {
+      "texto": "oito",
+      "arquivo": "assets/audio/numeros/8.mp3"
+    },
+    "9": {
+      "texto": "nove",
+      "arquivo": "assets/audio/numeros/9.mp3"
+    },
+    "10": {
+      "texto": "dez",
+      "arquivo": "assets/audio/numeros/10.mp3"
+    },
+    "11": {
+      "texto": "onze",
+      "arquivo": "assets/audio/numeros/11.mp3"
+    },
+    "12": {
+      "texto": "doze",
+      "arquivo": "assets/audio/numeros/12.mp3"
+    },
+    "13": {
+      "texto": "treze",
+      "arquivo": "assets/audio/numeros/13.mp3"
+    },
+    "14": {
+      "texto": "catorze",
+      "arquivo": "assets/audio/numeros/14.mp3"
+    },
+    "15": {
+      "texto": "quinze",
+      "arquivo": "assets/audio/numeros/15.mp3"
+    },
+    "16": {
+      "texto": "dezesseis",
+      "arquivo": "assets/audio/numeros/16.mp3"
+    },
+    "17": {
+      "texto": "dezessete",
+      "arquivo": "assets/audio/numeros/17.mp3"
+    },
+    "18": {
+      "texto": "dezoito",
+      "arquivo": "assets/audio/numeros/18.mp3"
+    },
+    "19": {
+      "texto": "dezenove",
+      "arquivo": "assets/audio/numeros/19.mp3"
+    },
+    "20": {
+      "texto": "vinte",
+      "arquivo": "assets/audio/numeros/20.mp3"
+    }
+  },
+  "cores": {
+    "VERMELHO": {
+      "texto": "vermelho",
+      "arquivo": "assets/audio/cores/vermelho.mp3"
+    },
+    "AZUL": {
+      "texto": "azul",
+      "arquivo": "assets/audio/cores/azul.mp3"
+    },
+    "AMARELO": {
+      "texto": "amarelo",
+      "arquivo": "assets/audio/cores/amarelo.mp3"
+    },
+    "VERDE": {
+      "texto": "verde",
+      "arquivo": "assets/audio/cores/verde.mp3"
+    },
+    "ROXO": {
+      "texto": "roxo",
+      "arquivo": "assets/audio/cores/roxo.mp3"
+    },
+    "ROSA": {
+      "texto": "rosa",
+      "arquivo": "assets/audio/cores/rosa.mp3"
+    },
+    "LARANJA": {
+      "texto": "laranja",
+      "arquivo": "assets/audio/cores/laranja.mp3"
+    },
+    "MARROM": {
+      "texto": "marrom",
+      "arquivo": "assets/audio/cores/marrom.mp3"
+    }
+  }
+}
